@@ -1,2 +1,2 @@
 # Todo-Frontend
-React Native Front End for a Todo Application.
+React Native Front End for the Todo Application.
