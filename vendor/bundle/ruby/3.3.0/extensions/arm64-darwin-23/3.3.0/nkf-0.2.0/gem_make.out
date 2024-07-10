@@ -1,0 +1,18 @@
+current directory: /Users/lindokuhledlomo/Documents/DevTest/Todo App/Frontend/TodoApp/vendor/bundle/ruby/3.3.0/gems/nkf-0.2.0/ext/nkf
+/Users/lindokuhledlomo/.rbenv/versions/3.3.3/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/lindokuhledlomo/Documents/DevTest/Todo App/Frontend/TodoApp/vendor/bundle/ruby/3.3.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20240710-4156-4u5c39 sitelibdir\=./.gem.20240710-4156-4u5c39 clean
+
+current directory: /Users/lindokuhledlomo/Documents/DevTest/Todo App/Frontend/TodoApp/vendor/bundle/ruby/3.3.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20240710-4156-4u5c39 sitelibdir\=./.gem.20240710-4156-4u5c39
+compiling nkf.c
+linking shared-object nkf.bundle
+
+current directory: /Users/lindokuhledlomo/Documents/DevTest/Todo App/Frontend/TodoApp/vendor/bundle/ruby/3.3.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20240710-4156-4u5c39 sitelibdir\=./.gem.20240710-4156-4u5c39 install
+/opt/homebrew/bin/ginstall -c -m 0755 nkf.bundle ./.gem.20240710-4156-4u5c39
+
+current directory: /Users/lindokuhledlomo/Documents/DevTest/Todo App/Frontend/TodoApp/vendor/bundle/ruby/3.3.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20240710-4156-4u5c39 sitelibdir\=./.gem.20240710-4156-4u5c39 clean
