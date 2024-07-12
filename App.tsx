@@ -1,9 +1,7 @@
-import React, {useEffect, useState} from 'react';
-import {SafeAreaView, ScrollView, StyleSheet, Text} from 'react-native';
-import {addTodo, getTodos} from './src/api/api';
+import React, {useState} from 'react';
+import {Pressable, SafeAreaView, StyleSheet, Text} from 'react-native';
 import TodoItem from './src/components/TodoItem';
-import TodoComponent from './src/components/TodoComponent';
-import AddTodo from './src/components/AddTodo';
+import CreateTodoModal from './src/components/CreateTodoModal';
 
 //BLUE COLOR = #0076FE
 //FADE BACK COLOR WHEN MODAL IS UP = #BEC6D1
@@ -14,11 +12,9 @@ const styles = StyleSheet.create({
     flexWrap: 'wrap',
     flex: 1,
     flexDirection: 'column',
-    alignContent: 'flex-start',
-    justifyContent: 'flex-start',
+    alignContent: 'flex-end',
+    justifyContent: 'flex-end',
     backgroundColor: '#EFF2F7',
-    width: '100%',
-    height: '100%',
   },
   contentContainer: {
     display: 'flex',
@@ -64,18 +60,7 @@ const styles = StyleSheet.create({
 });
 
 export default function App(): React.JSX.Element {
-  // const [todos, setTodos] = useState<ITodo[]>([]);
-
-  // useEffect(() => {
-  //   fetchTodos();
-  // }, []);
-
-  // const fetchTodos = async (): Promise<void> => {
-  //   await getTodos()
-  //     .then((todos: ITodo[] | any) => setTodos(todos))
-  //     .catch((err: Error) => console.log(err));
-  // };
-
+  const [modalVisible, setModalVisible] = useState(false);
   return (
     <SafeAreaView style={styles.main}>
       <SafeAreaView style={styles.topIcons}>
@@ -87,8 +72,14 @@ export default function App(): React.JSX.Element {
         <Text style={styles.title}>Today</Text>
         <TodoItem />
       </SafeAreaView>
+      <CreateTodoModal
+        modalVisible={modalVisible}
+        onModalPress={() => setModalVisible(!modalVisible)}
+      />
       <SafeAreaView style={styles.bottomContainer}>
-        <Text style={styles.plus}>Plus</Text>
+        <Pressable onPress={() => setModalVisible(true)}>
+          <Text style={styles.plus}>Plus</Text>
+        </Pressable>
       </SafeAreaView>
     </SafeAreaView>
   );

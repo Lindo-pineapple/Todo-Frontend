@@ -1,3 +1,4 @@
+import React from 'react';
 import {TouchableOpacity, SafeAreaView, Text, StyleSheet} from 'react-native';
 import CheckItem from './CheckBox';
 
@@ -53,7 +54,7 @@ const Todo = ({todo, onPress}: ItemProps) => (
       </TouchableOpacity>
       <SafeAreaView style={styles.itemDetails}>
         <Text style={styles.title}>{todo.todo}</Text>
-        <Text style={styles.dateText}>{todo.createdAt}</Text>
+        <Text style={styles.dateText}>{todo.userId}</Text>
       </SafeAreaView>
     </SafeAreaView>
   </TouchableOpacity>
