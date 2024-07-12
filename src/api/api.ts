@@ -1,6 +1,6 @@
 const baseUrl: string = 'http://localhost:3000';
 const authToken =
-  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OGQ0MDA2OWU4Y2VjZjE5YjkwYTE5ZiIsImlhdCI6MTcyMDcwNTkzMSwiZXhwIjoxNzIwNzA3NzMxfQ.MAGymJBAc9nkkIaWeXL3pnRB1GlmkUjBLSRHCWc4VDc';
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OGQ0MDA2OWU4Y2VjZjE5YjkwYTE5ZiIsImlhdCI6MTcyMDc2MDMyOSwiZXhwIjoxNzIwNzYyMTI5fQ.la9jdgZp0V0m-LXvGtO0IUl-UGDPiVuKiiW0MY9Vg-E';
 
 export const getTodos = async (): Promise<ITodo[]> => {
   try {
