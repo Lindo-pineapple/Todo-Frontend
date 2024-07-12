@@ -12,6 +12,14 @@ export default StyleSheet.create({
     alignContent: 'center',
     padding: 20,
   },
+  NonContenContainer: {
+    flex: 0.5,
+    justifyContent: 'space-evenly',
+    alignContent: 'center',
+    backgroundColor: 'green',
+    padding: 20,
+    margin: -20,
+  },
   contenContainer: {
     flex: 0.5,
     justifyContent: 'space-evenly',
