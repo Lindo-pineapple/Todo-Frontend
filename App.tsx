@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 64,
-    fontWeight: 'bold',
+    fontFamily: 'HurmeGeometricSans3-Bold',
     color: '#2D2E30',
     marginHorizontal: 10,
   },

@@ -116,6 +116,7 @@ const styles = StyleSheet.create({
   title: {
     alignSelf: 'flex-start',
     fontSize: 16,
+    fontFamily: 'HurmeGeometricSans3-Bold',
     backgroundColor: 'white',
   },
   dateText: {
