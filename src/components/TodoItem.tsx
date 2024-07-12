@@ -7,6 +7,7 @@ import {
   Text,
   TouchableOpacity,
 } from 'react-native';
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 // DUMMY DATA FOR DESIGN PURPOSES
 const TODOS: ITodo[] | any = [
