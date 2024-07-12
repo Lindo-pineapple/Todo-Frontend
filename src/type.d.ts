@@ -3,7 +3,7 @@ interface ITodo {
   todo: string;
   description: string;
   isDone: boolean;
-  userId: string;
+  userId?: string;
   createdAt?: string;
   updatedAt?: string;
 }
