@@ -1,5 +1,9 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {SafeAreaView, StyleSheet, Text} from 'react-native';
+import {addTodo, getTodos} from './src/api/api';
+import TodoItem from './src/components/TodoItem';
+import TodoComponent from './src/components/TodoComponent';
+import AddTodo from './src/components/AddTodo';
 
 const styles = StyleSheet.create({
   main: {
@@ -41,6 +45,7 @@ const styles = StyleSheet.create({
   bottomContainer: {
     flex: 1,
     justifyContent: 'flex-end',
+    backgroundColor: 'orange',
   },
   plus: {
     fontWeight: 'bold',
@@ -52,13 +57,42 @@ const styles = StyleSheet.create({
 });
 
 export default function App(): React.JSX.Element {
+  const [todos, setTodos] = useState<ITodo[]>([]);
+
+  useEffect(() => {
+    fetchTodos();
+  }, []);
+
+  const fetchTodos = async (): Promise<void> => {
+    await getTodos()
+      .then((todos: ITodo[] | any) => setTodos(todos))
+      .catch((err: Error) => console.log(err));
+  };
+
   return (
     <SafeAreaView style={styles.main}>
       <SafeAreaView style={styles.topIcons}>
+        {/* Use React Navigation */}
         <Text style={styles.menuIcon}>Icon</Text>
         <Text style={styles.bellIcon}>Icon</Text>
       </SafeAreaView>
       <Text style={styles.title}>Today</Text>
+      {/* {todos.map((todo: ITodo) => (
+        <TodoItem
+          key={todo._id}
+          updateTodo={() => {}}
+          deleteTodo={() => {}}
+          todo={todo}
+        />
+      ))} */}
+      {todos.map((todo: ITodo) => (
+        <TodoComponent
+          key={todo._id}
+          updateTodo={() => {}}
+          deleteTodo={() => {}}
+          todo={todo}
+        />
+      ))}
       <SafeAreaView style={styles.bottomContainer}>
         <Text style={styles.plus}>Plus</Text>
       </SafeAreaView>
