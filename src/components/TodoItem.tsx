@@ -104,7 +104,7 @@ const Todo = ({todo, onPress}: ItemProps) => (
   </TouchableOpacity>
 );
 
-const TodoItem: React.FC<Props> = () => {
+const TodoItem: React.FC = () => {
   const renderItem = ({item}: {item: ITodo}) => {
     return <Todo todo={item} onPress={() => {}} />;
   };
