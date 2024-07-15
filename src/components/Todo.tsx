@@ -1,6 +1,7 @@
 import React from 'react';
 import {TouchableOpacity, SafeAreaView, Text, StyleSheet} from 'react-native';
 import CheckItem from './CheckBox';
+import FormatDateTime from '../helpers/TimeFormat';
 
 type ItemProps = {
   todo: ITodo;
@@ -25,7 +26,7 @@ const styles = StyleSheet.create({
   checkbox: {
     display: 'flex',
     marginHorizontal: -10,
-    marginBottom: 10,
+    bottom: 3,
   },
   itemDetails: {
     display: 'flex',
@@ -54,7 +55,7 @@ const Todo = ({todo, onPress}: ItemProps) => (
       </TouchableOpacity>
       <SafeAreaView style={styles.itemDetails}>
         <Text style={styles.title}>{todo.todo}</Text>
-        <Text style={styles.dateText}>{todo.userId}</Text>
+        <Text style={styles.dateText}>{FormatDateTime(todo.updatedAt)}</Text>
       </SafeAreaView>
     </SafeAreaView>
   </TouchableOpacity>

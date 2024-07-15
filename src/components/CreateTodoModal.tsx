@@ -15,12 +15,15 @@ const CreateTodoModal = (props: {
 }) => {
   return (
     <Modal
-      animationType="slide"
-      transparent={false}
+      animationType="fade"
+      transparent={true}
       visible={props.modalVisible}
       onRequestClose={props.onModalPress}>
       <SafeAreaView style={styles.modalView}>
-        <SafeAreaView style={styles.NonContenContainer}></SafeAreaView>
+        <Pressable
+          style={styles.NonContenContainer}
+          onPress={props.onModalPress}
+        />
         <SafeAreaView style={styles.contenContainer}>
           <Text style={styles.modalText}>Create Todo</Text>
           <TextInput style={styles.input} placeholder="Task name" />
