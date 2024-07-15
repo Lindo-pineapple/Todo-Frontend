@@ -15,6 +15,8 @@
 		7699B88040F8A987B510C191 /* libPods-TodoApp-TodoAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-TodoApp-TodoAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8ACA5E32998E09E3F93CB7E4 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = C316EA0E4E56AE24D89B52A7 /* PrivacyInfo.xcprivacy */; };
+		09C8A395FE1B4908BB23E657 /* HurmeGeometricSans3-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F80B9AC6F5914624B3741296 /* HurmeGeometricSans3-Bold.ttf */; };
+		115FB21FD82042A4A30476C7 /* Caveat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90B432AF1C46F98C37A4F4 /* Caveat-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		89C6BE57DB24E9ADA2F236DE /* Pods-TodoApp-TodoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoApp-TodoAppTests.release.xcconfig"; path = "Target Support Files/Pods-TodoApp-TodoAppTests/Pods-TodoApp-TodoAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		C316EA0E4E56AE24D89B52A7 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = TodoApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F80B9AC6F5914624B3741296 /* HurmeGeometricSans3-Bold.ttf */ = {isa = PBXFileReference; name = "HurmeGeometricSans3-Bold.ttf"; path = "../assets/fonts/HurmeGeometricSans3-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EC90B432AF1C46F98C37A4F4 /* Caveat-Regular.ttf */ = {isa = PBXFileReference; name = "Caveat-Regular.ttf"; path = "../assets/fonts/Caveat-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				D1143B61E47C455F9CC0933E /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -152,6 +157,16 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		D1143B61E47C455F9CC0933E /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				F80B9AC6F5914624B3741296 /* HurmeGeometricSans3-Bold.ttf */,
+				EC90B432AF1C46F98C37A4F4 /* Caveat-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -249,6 +264,8 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				8ACA5E32998E09E3F93CB7E4 /* PrivacyInfo.xcprivacy in Resources */,
+				09C8A395FE1B4908BB23E657 /* HurmeGeometricSans3-Bold.ttf in Resources */,
+				115FB21FD82042A4A30476C7 /* Caveat-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

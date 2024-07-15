@@ -1,39 +1,72 @@
-import React from 'react';
-import {SafeAreaView, Text} from 'react-native';
+import React, {useEffect, useState} from 'react';
+import {FlatList, SafeAreaView} from 'react-native';
+import {getTodos} from '../api/api';
+import Todo from './Todo';
 
-type Props = TodoProps & {
-  updateTodo: (todo: ITodo) => void;
-  deleteTodo: (_id: string) => void;
-};
+// DUMMY DATA FOR DESIGN PURPOSES
+// const TODOS: ITodo[] | any = [
+//   {
+//     _id: '668d4cf8dd3d76c20f8606be',
+//     todo: 'Snap texture photos',
+//     description: 'Create a Fullstack React Native Todo App.',
+//     isDone: true,
+//     userId: '668d40069e8cecf19b90a19f',
+//     createdAt: '10:30 AM',
+//     __v: 0,
+//   },
+//   {
+//     _id: '668e2ed37092951c758c3016',
+//     todo: 'Doodle a sunset',
+//     description:
+//       'Make sure every single part of the backend works as it should.',
+//     isDone: false,
+//     userId: '668d40069e8cecf19b90a19f',
+//     createdAt: '06:45 PM',
+//     __v: 0,
+//   },
+//   {
+//     _id: '668fe5d286ac87026d767cc4',
+//     todo: 'Call family',
+//     description:
+//       'Do the Frontend Design, and make it it look like it is supposed to.',
+//     isDone: false,
+//     userId: '668d40069e8cecf19b90a19f',
+//     createdAt: '11:25 PM',
+//     __v: 0,
+//   },
+// ];
 
-const Todo: React.FC<Props> = ({todo, updateTodo, deleteTodo}) => {
-  const checkTodo: string = todo.isDone ? 'line-through' : '';
+const TodoItem: React.FC = () => {
+  const [todos, setTodos] = useState<ITodo[]>([]);
+
+  useEffect(() => {
+    fetchTodos();
+  }, []);
+
+  const fetchTodos = async (): Promise<void> => {
+    await getTodos()
+      .then((todos: ITodo[] | any) => setTodos(todos))
+      .catch((err: Error) => console.log(err));
+  };
+
+  const renderItem = ({item}: {item: ITodo}) => {
+    return <Todo todo={item} onPress={() => {}} />;
+  };
+
   return (
-    // <div className="Card">
-    //   <div className="Card--text">
-    //     <h1 className={checkTodo}>{todo.name}</h1>
-    //     <span className={checkTodo}>{todo.description}</span>
-    //   </div>
-    //   <div className="Card--button">
-    //     <button
-    //       onClick={() => updateTodo(todo)}
-    //       className={todo.isDone ? `hide-button` : 'Card--button__done'}>
-    //       Complete
-    //     </button>
-    //     <button
-    //       onClick={() => deleteTodo(todo._id)}
-    //       className="Card--button__delete">
-    //       Delete
-    //     </button>
-    //   </div>
-    // </div>
-    <SafeAreaView>
-      <Text>{todo.todo}</Text>
-      <Text>{todo.description}</Text>
-      <Text>Is Done: {todo.isDone.toString()}</Text>
-      <Text>By user: {todo.userId}</Text>
+    <SafeAreaView
+      style={{
+        flex: 1,
+        marginTop: 20,
+        padding: 10,
+      }}>
+      <FlatList
+        data={todos}
+        renderItem={renderItem}
+        keyExtractor={item => item._id}
+      />
     </SafeAreaView>
   );
 };
 
-export default Todo;
+export default TodoItem;
