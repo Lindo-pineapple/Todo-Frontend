@@ -789,6 +789,8 @@ int id focusCrop 0x7f08006a
 int id forever 0x7f08006b
 int id fps_text 0x7f08006c
 int id fragment_container_view_tag 0x7f08006d
+int id ghost_view 0x7f0800dc
+int id ghost_view_holder 0x7f0800dd
 int id group_divider 0x7f08006e
 int id home 0x7f08006f
 int id homeAsUp 0x7f080070
@@ -816,6 +818,7 @@ int id notification_main_column_container 0x7f080085
 int id off 0x7f080086
 int id on 0x7f080087
 int id parentPanel 0x7f080088
+int id parent_matrix 0x7f0800de
 int id pointer_events 0x7f080089
 int id progress_circular 0x7f08008a
 int id progress_horizontal 0x7f08008b
@@ -833,6 +836,8 @@ int id rn_redbox_report_button 0x7f080096
 int id rn_redbox_report_label 0x7f080097
 int id rn_redbox_stack 0x7f080098
 int id role 0x7f080099
+int id save_non_transition_alpha 0x7f0800df
+int id save_overlay_view 0x7f0800e0
 int id screen 0x7f08009a
 int id scrollIndicatorDown 0x7f08009b
 int id scrollIndicatorUp 0x7f08009c
@@ -886,6 +891,11 @@ int id top 0x7f0800cb
 int id topPanel 0x7f0800cc
 int id transform 0x7f0800cd
 int id transform_origin 0x7f0800ce
+int id transition_current_scene 0x7f0800e1
+int id transition_layout_save 0x7f0800e2
+int id transition_position 0x7f0800e3
+int id transition_scene_layoutid_cache 0x7f0800e4
+int id transition_transform 0x7f0800e5
 int id unchecked 0x7f0800cf
 int id uniform 0x7f0800d0
 int id up 0x7f0800d1
