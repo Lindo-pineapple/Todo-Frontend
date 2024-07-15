@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {Pressable, SafeAreaView, StyleSheet, Text} from 'react-native';
 import TodoItem from './src/components/TodoItem';
 import CreateTodoModal from './src/components/CreateTodoModal';
+import CustomIcon from './assets/CustomIcon';
 
 //BLUE COLOR = #0076FE
 //FADE BACK COLOR WHEN MODAL IS UP = #BEC6D1
@@ -79,6 +80,7 @@ export default function App(): React.JSX.Element {
       <SafeAreaView style={styles.bottomContainer}>
         <Pressable onPress={() => setModalVisible(true)}>
           <Text style={styles.plus}>Plus</Text>
+          <CustomIcon name="icon-leafIcon_no_bg" size={24} color="#0076FE" />
         </Pressable>
       </SafeAreaView>
     </SafeAreaView>

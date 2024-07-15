@@ -49,8 +49,9 @@
 	<false/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>HurmeGeometricSans3-Bold.ttf</string>
 		<string>Caveat-Regular.ttf</string>
+		<string>HurmeGeometricSans3-Bold.ttf</string>
+		<string>icomoon.ttf</string>
 	</array>
 </dict>
 </plist>
