@@ -4,7 +4,7 @@ import CheckItem from './CheckBox';
 import FormatDateTime from '../helpers/TimeFormat';
 
 type ItemProps = {
-  todo: ITodo | null;
+  todo: ITodo;
   onPress: () => void;
 };
 
