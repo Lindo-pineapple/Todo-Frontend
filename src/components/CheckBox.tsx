@@ -1,10 +1,18 @@
 import {CheckBox} from '@rneui/themed';
 import React from 'react';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import {updateTodo} from '../api/api';
 
-export default function CheckItem(props: {state: boolean}) {
+export default function CheckItem(props: {state: boolean; Todo: ITodo}) {
   const [checked, setState] = React.useState(props.state);
-  const toggleCheckbox = () => {
+  const toggleCheckbox = async () => {
+    let todo: ITodo = {
+      _id: props.Todo._id,
+      todo: props.Todo.todo,
+      description: props.Todo.description,
+      isDone: !checked,
+    };
+    await updateTodo(todo);
     setState(!checked);
   };
 

@@ -51,7 +51,7 @@ const Todo = ({todo, onPress}: ItemProps) => (
   <TouchableOpacity onPress={onPress} style={styles.item}>
     <SafeAreaView style={styles.contentContainer}>
       <TouchableOpacity style={styles.checkbox}>
-        <CheckItem state={todo.isDone} />
+        <CheckItem state={todo.isDone} Todo={todo} />
       </TouchableOpacity>
       <SafeAreaView style={styles.itemDetails}>
         <Text style={styles.title}>{todo.todo}</Text>

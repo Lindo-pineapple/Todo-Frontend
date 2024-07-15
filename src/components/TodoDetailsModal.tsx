@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {
   Modal,
   Text,
@@ -9,12 +9,25 @@ import {
 import styles from './TodoDetailsModalStyles';
 import FormatDateTime from '../helpers/TimeFormat';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import {updateTodo} from '../api/api';
 
 const TodoDetailsModal = (props: {
   modalVisible: boolean;
   onModalPress: ((event: NativeSyntheticEvent<any>) => void) | undefined;
   Todo: ITodo;
 }) => {
+  const [done, setDone] = useState(props.Todo.isDone);
+  const update = async (): Promise<void> => {
+    let todo: ITodo = {
+      _id: props.Todo._id,
+      todo: props.Todo.todo,
+      description: props.Todo.description,
+      isDone: !done,
+    };
+    await updateTodo(todo);
+    setDone(!done);
+  };
+
   return (
     <Modal
       animationType="fade"
@@ -39,9 +52,13 @@ const TodoDetailsModal = (props: {
             </Text>
           </SafeAreaView>
           <Text style={styles.descriptionText}>{props.Todo.description}</Text>
-          <Pressable style={styles.button} onPress={props.onModalPress}>
+          <Pressable
+            style={styles.button}
+            onPress={() => {
+              update();
+            }}>
             <Text style={styles.textStyle}>
-              {props.Todo.isDone ? 'Mark Incomplete' : 'Mark completed'}
+              {done ? 'Mark Incomplete' : 'Mark completed'}
             </Text>
           </Pressable>
         </SafeAreaView>

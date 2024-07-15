@@ -75,7 +75,10 @@ const TodoItem: React.FC = () => {
       {currentItem !== undefined && (
         <TodoDetailsModal
           modalVisible={modalVisible}
-          onModalPress={() => setModalVisible(!modalVisible)}
+          onModalPress={() => {
+            setModalVisible(!modalVisible);
+            setCurrentItem(undefined);
+          }}
           Todo={currentItem!}
         />
       )}
