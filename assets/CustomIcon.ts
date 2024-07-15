@@ -1,4 +1,4 @@
 import {createIconSetFromIcoMoon} from 'react-native-vector-icons';
-import icoMoonConfig from './icons/selection.json';
+import icoMoonConfig from './Icons/selection.json';
 
 export default createIconSetFromIcoMoon(icoMoonConfig);

@@ -11,23 +11,11 @@
     },
     {
       "path": "assets/Icons/icomoon.ttf",
-      "sha1": "6871af4ab9fc3d884f7be2859e868d5e0b87f8f3"
+      "sha1": "e2daaff773fc8909fe6c1dc38e4d9cc12c100514"
     },
     {
       "path": "assets/Icons/selection.json",
-      "sha1": "eb15df0c1959496391b72f78174b6c1971bec961"
-    },
-    {
-      "path": "assets/Images/addITodo.png",
-      "sha1": "30912f2581fc54c3dbea1af1061c5a39b6acaa0c"
-    },
-    {
-      "path": "assets/Images/addTodo_no_bg.png",
-      "sha1": "d8821b6077e4f0847f0093d81ef2517082a3a901"
-    },
-    {
-      "path": "assets/Images/menuIcon.png",
-      "sha1": "c2e81cd19358e385924c3a9e021c68f3abab91d9"
+      "sha1": "f2f51c37fb66b79d5dcdf6bc589cb1f2dcec9240"
     }
   ]
 }

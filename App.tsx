@@ -52,10 +52,6 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
   },
   plus: {
-    fontWeight: 'bold',
-    fontSize: 34,
-    color: 'white',
-    backgroundColor: '#0076FE',
     alignSelf: 'flex-end',
   },
 });
@@ -79,8 +75,12 @@ export default function App(): React.JSX.Element {
       />
       <SafeAreaView style={styles.bottomContainer}>
         <Pressable onPress={() => setModalVisible(true)}>
-          <Text style={styles.plus}>Plus</Text>
-          <CustomIcon name="icon-leafIcon_no_bg" size={24} color="#0076FE" />
+          <CustomIcon
+            style={styles.plus}
+            name="leafIcon-no-bg"
+            size={99}
+            color="#0076FE"
+          />
         </Pressable>
       </SafeAreaView>
     </SafeAreaView>
