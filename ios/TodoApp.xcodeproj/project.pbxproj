@@ -8,8 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* TodoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TodoAppTests.m */; };
-		19A8C8D64564421593A69AA2 /* Add-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 483F7D49F90342A69B0BDBE5 /* Add-Icon.png */; };
-		DCF1D5F57364490EBA1B8678 /* BurgerMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AC332664F524A4AB57F68CF /* BurgerMenu.png */; };
+		8A8EE9BB5683445FB0ED397E /* Sofia Pro Black Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 99C0C9B1B730488CAF1A8C79 /* Sofia Pro Black Az.otf */; };
+		5B31382ECD2C45E2B10BBA88 /* Sofia Pro Black Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 70D649AA08494042B07ECE25 /* Sofia Pro Black Italic Az.otf */; };
+		0D090DB7B5924CA0AA5BF260 /* Sofia Pro Bold Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6C1DE89FC234218B0188E5D /* Sofia Pro Bold Az.otf */; };
+		A89E3654532D4EE8BC7A1719 /* Sofia Pro Bold Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = B4F538E14C74492F9A8C2110 /* Sofia Pro Bold Italic Az.otf */; };
+		3B35C3B3683040B18CAFCA66 /* Sofia Pro ExtraLight Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 351924AF7A6A43998084AAA0 /* Sofia Pro ExtraLight Az.otf */; };
+		F6CDD9F8C3F547E9B040EA1C /* Sofia Pro ExtraLight Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = C132145EFAAC4DC18D32863B /* Sofia Pro ExtraLight Italic Az.otf */; };
+		B3D8C55EF376496988F4AEA9 /* Sofia Pro Light Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 937B1DABD34B48C289ED4CCB /* Sofia Pro Light Az.otf */; };
+		9A4AD018FAFD40759F9AC32B /* Sofia Pro Light Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72937C973D78455E81390B20 /* Sofia Pro Light Italic Az.otf */; };
+		47C4B9998F404C37AC02A965 /* Sofia Pro Medium Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82CA4161A7E3451EA489B35B /* Sofia Pro Medium Az.otf */; };
+		FED008B594074ABCB397355A /* Sofia Pro Medium Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1368648BBCAD4D49A4E47CA1 /* Sofia Pro Medium Italic Az.otf */; };
+		97091A4D158147898B954B6D /* Sofia Pro Regular Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = BCF75D042DD14C64820C0986 /* Sofia Pro Regular Az.otf */; };
+		6504035C69BD49EFBAB4CCE4 /* Sofia Pro Regular Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = E068263C1DE24ADFA2563B92 /* Sofia Pro Regular Italic Az.otf */; };
+		DCC1F53600F847DCAE3AA947 /* Sofia Pro Semi Bold Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = E43969D8F0E4439B92CFF7D2 /* Sofia Pro Semi Bold Az.otf */; };
+		F658F4320F584BB8B4CDF4AB /* Sofia Pro Semi Bold Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = CB732EEDE7104CE8BE9F84FC /* Sofia Pro Semi Bold Italic Az.otf */; };
+		3A988F705091421C80B55BD3 /* Sofia Pro UltraLight Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 258C3B68A26C43A3B1532C0B /* Sofia Pro UltraLight Az.otf */; };
+		023EFE6C2545455A9293D37D /* Sofia Pro UltraLight Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = D54128326000424D80254C68 /* Sofia Pro UltraLight Italic Az.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,8 +55,22 @@
 		C316EA0E4E56AE24D89B52A7 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = TodoApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FCE4EDDD4CB7417D86524A43 /* HurmeGeometricSans1-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HurmeGeometricSans1-Bold.otf"; path = "../assets/Fonts/HurmeGeometricSans1-Bold.otf"; sourceTree = "<group>"; };
-		483F7D49F90342A69B0BDBE5 /* Add-Icon.png */ = {isa = PBXFileReference; name = "Add-Icon.png"; path = "../assets/Images/Add-Icon.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0AC332664F524A4AB57F68CF /* BurgerMenu.png */ = {isa = PBXFileReference; name = "BurgerMenu.png"; path = "../assets/Images/BurgerMenu.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		99C0C9B1B730488CAF1A8C79 /* Sofia Pro Black Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Black Az.otf"; path = "../assets/Fonts/Sofia Pro Black Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		70D649AA08494042B07ECE25 /* Sofia Pro Black Italic Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Black Italic Az.otf"; path = "../assets/Fonts/Sofia Pro Black Italic Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C6C1DE89FC234218B0188E5D /* Sofia Pro Bold Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Bold Az.otf"; path = "../assets/Fonts/Sofia Pro Bold Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B4F538E14C74492F9A8C2110 /* Sofia Pro Bold Italic Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Bold Italic Az.otf"; path = "../assets/Fonts/Sofia Pro Bold Italic Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		351924AF7A6A43998084AAA0 /* Sofia Pro ExtraLight Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro ExtraLight Az.otf"; path = "../assets/Fonts/Sofia Pro ExtraLight Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C132145EFAAC4DC18D32863B /* Sofia Pro ExtraLight Italic Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro ExtraLight Italic Az.otf"; path = "../assets/Fonts/Sofia Pro ExtraLight Italic Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		937B1DABD34B48C289ED4CCB /* Sofia Pro Light Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Light Az.otf"; path = "../assets/Fonts/Sofia Pro Light Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		72937C973D78455E81390B20 /* Sofia Pro Light Italic Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Light Italic Az.otf"; path = "../assets/Fonts/Sofia Pro Light Italic Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		82CA4161A7E3451EA489B35B /* Sofia Pro Medium Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Medium Az.otf"; path = "../assets/Fonts/Sofia Pro Medium Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1368648BBCAD4D49A4E47CA1 /* Sofia Pro Medium Italic Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Medium Italic Az.otf"; path = "../assets/Fonts/Sofia Pro Medium Italic Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BCF75D042DD14C64820C0986 /* Sofia Pro Regular Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Regular Az.otf"; path = "../assets/Fonts/Sofia Pro Regular Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E068263C1DE24ADFA2563B92 /* Sofia Pro Regular Italic Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Regular Italic Az.otf"; path = "../assets/Fonts/Sofia Pro Regular Italic Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E43969D8F0E4439B92CFF7D2 /* Sofia Pro Semi Bold Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Semi Bold Az.otf"; path = "../assets/Fonts/Sofia Pro Semi Bold Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CB732EEDE7104CE8BE9F84FC /* Sofia Pro Semi Bold Italic Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Semi Bold Italic Az.otf"; path = "../assets/Fonts/Sofia Pro Semi Bold Italic Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		258C3B68A26C43A3B1532C0B /* Sofia Pro UltraLight Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro UltraLight Az.otf"; path = "../assets/Fonts/Sofia Pro UltraLight Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D54128326000424D80254C68 /* Sofia Pro UltraLight Italic Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro UltraLight Italic Az.otf"; path = "../assets/Fonts/Sofia Pro UltraLight Italic Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,8 +181,22 @@
 				985681083E5545CC815E9A85 /* HurmeGeometricSans1-SemiBold.otf */,
 				588BFFD64DAC4485A2766F2E /* HurmeGeometricSans1-Thin.otf */,
 				280B1E281672488BA3AF932F /* HurmeGeometricSans1.otf */,
-				483F7D49F90342A69B0BDBE5 /* Add-Icon.png */,
-				0AC332664F524A4AB57F68CF /* BurgerMenu.png */,
+				99C0C9B1B730488CAF1A8C79 /* Sofia Pro Black Az.otf */,
+				70D649AA08494042B07ECE25 /* Sofia Pro Black Italic Az.otf */,
+				C6C1DE89FC234218B0188E5D /* Sofia Pro Bold Az.otf */,
+				B4F538E14C74492F9A8C2110 /* Sofia Pro Bold Italic Az.otf */,
+				351924AF7A6A43998084AAA0 /* Sofia Pro ExtraLight Az.otf */,
+				C132145EFAAC4DC18D32863B /* Sofia Pro ExtraLight Italic Az.otf */,
+				937B1DABD34B48C289ED4CCB /* Sofia Pro Light Az.otf */,
+				72937C973D78455E81390B20 /* Sofia Pro Light Italic Az.otf */,
+				82CA4161A7E3451EA489B35B /* Sofia Pro Medium Az.otf */,
+				1368648BBCAD4D49A4E47CA1 /* Sofia Pro Medium Italic Az.otf */,
+				BCF75D042DD14C64820C0986 /* Sofia Pro Regular Az.otf */,
+				E068263C1DE24ADFA2563B92 /* Sofia Pro Regular Italic Az.otf */,
+				E43969D8F0E4439B92CFF7D2 /* Sofia Pro Semi Bold Az.otf */,
+				CB732EEDE7104CE8BE9F84FC /* Sofia Pro Semi Bold Italic Az.otf */,
+				258C3B68A26C43A3B1532C0B /* Sofia Pro UltraLight Az.otf */,
+				D54128326000424D80254C68 /* Sofia Pro UltraLight Italic Az.otf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -217,8 +259,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19A8C8D64564421593A69AA2 /* Add-Icon.png in Resources */,
-				DCF1D5F57364490EBA1B8678 /* BurgerMenu.png in Resources */,
+				8A8EE9BB5683445FB0ED397E /* Sofia Pro Black Az.otf in Resources */,
+				5B31382ECD2C45E2B10BBA88 /* Sofia Pro Black Italic Az.otf in Resources */,
+				0D090DB7B5924CA0AA5BF260 /* Sofia Pro Bold Az.otf in Resources */,
+				A89E3654532D4EE8BC7A1719 /* Sofia Pro Bold Italic Az.otf in Resources */,
+				3B35C3B3683040B18CAFCA66 /* Sofia Pro ExtraLight Az.otf in Resources */,
+				F6CDD9F8C3F547E9B040EA1C /* Sofia Pro ExtraLight Italic Az.otf in Resources */,
+				B3D8C55EF376496988F4AEA9 /* Sofia Pro Light Az.otf in Resources */,
+				9A4AD018FAFD40759F9AC32B /* Sofia Pro Light Italic Az.otf in Resources */,
+				47C4B9998F404C37AC02A965 /* Sofia Pro Medium Az.otf in Resources */,
+				FED008B594074ABCB397355A /* Sofia Pro Medium Italic Az.otf in Resources */,
+				97091A4D158147898B954B6D /* Sofia Pro Regular Az.otf in Resources */,
+				6504035C69BD49EFBAB4CCE4 /* Sofia Pro Regular Italic Az.otf in Resources */,
+				DCC1F53600F847DCAE3AA947 /* Sofia Pro Semi Bold Az.otf in Resources */,
+				F658F4320F584BB8B4CDF4AB /* Sofia Pro Semi Bold Italic Az.otf in Resources */,
+				3A988F705091421C80B55BD3 /* Sofia Pro UltraLight Az.otf in Resources */,
+				023EFE6C2545455A9293D37D /* Sofia Pro UltraLight Italic Az.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

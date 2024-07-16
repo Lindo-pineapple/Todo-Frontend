@@ -42,20 +42,76 @@
       "sha1": "fb53c1a5dacd294c03804798f6a0c785ed48d33a"
     },
     {
+      "path": "assets/Fonts/Sofia Pro Black Az.otf",
+      "sha1": "2c329f57045fc027d0f338056a4a1b82c052f556"
+    },
+    {
+      "path": "assets/Fonts/Sofia Pro Black Italic Az.otf",
+      "sha1": "d8632297fd017fab89ec4f2e898f0368c6e2306d"
+    },
+    {
+      "path": "assets/Fonts/Sofia Pro Bold Az.otf",
+      "sha1": "3e77b75a32477f1f3f1121b2bbcb5128c017a92f"
+    },
+    {
+      "path": "assets/Fonts/Sofia Pro Bold Italic Az.otf",
+      "sha1": "f6034c6ee06e9984a5907b2079da86328773d2da"
+    },
+    {
+      "path": "assets/Fonts/Sofia Pro ExtraLight Az.otf",
+      "sha1": "e6f648f07b02c82b3eda00058ee19e74ff8868b5"
+    },
+    {
+      "path": "assets/Fonts/Sofia Pro ExtraLight Italic Az.otf",
+      "sha1": "6b4448049bb38861ded48f733d64d343d94007e7"
+    },
+    {
+      "path": "assets/Fonts/Sofia Pro Light Az.otf",
+      "sha1": "844c27a9a4ed2defb0470b20351f8e89602d1b2f"
+    },
+    {
+      "path": "assets/Fonts/Sofia Pro Light Italic Az.otf",
+      "sha1": "e59ad6ae539c35564e8304b5d56b4be544cd4e6d"
+    },
+    {
+      "path": "assets/Fonts/Sofia Pro Medium Az.otf",
+      "sha1": "031fbc487fedfb1d112f5ee21d74dd5c91b8c240"
+    },
+    {
+      "path": "assets/Fonts/Sofia Pro Medium Italic Az.otf",
+      "sha1": "3f4366529b522863a58c568251a614f44d952cf2"
+    },
+    {
+      "path": "assets/Fonts/Sofia Pro Regular Az.otf",
+      "sha1": "a316b3beca0376331f497c9c44a33224512c5fe9"
+    },
+    {
+      "path": "assets/Fonts/Sofia Pro Regular Italic Az.otf",
+      "sha1": "56e8215ce8c730593280ed7404c0549b33778e21"
+    },
+    {
+      "path": "assets/Fonts/Sofia Pro Semi Bold Az.otf",
+      "sha1": "cc5717c99183d0009be73de5f938680aea962c7f"
+    },
+    {
+      "path": "assets/Fonts/Sofia Pro Semi Bold Italic Az.otf",
+      "sha1": "1d11e800a62164daac04899c073183a284e7cba6"
+    },
+    {
+      "path": "assets/Fonts/Sofia Pro UltraLight Az.otf",
+      "sha1": "f87854d06dc363d591081bc039e7b57fd96ec4eb"
+    },
+    {
+      "path": "assets/Fonts/Sofia Pro UltraLight Italic Az.otf",
+      "sha1": "2c0c7597e54ef9aae677896add40b323e3677c8f"
+    },
+    {
       "path": "assets/Icons/icomoon.ttf",
       "sha1": "e2daaff773fc8909fe6c1dc38e4d9cc12c100514"
     },
     {
       "path": "assets/Icons/selection.json",
       "sha1": "09bf2f6ee93761bdcdc2fe44aba7ca352835288e"
-    },
-    {
-      "path": "assets/Images/Add-Icon.png",
-      "sha1": "d8821b6077e4f0847f0093d81ef2517082a3a901"
-    },
-    {
-      "path": "assets/Images/BurgerMenu.png",
-      "sha1": "5eef330c26532c7a8660645704fe13cc70aa33f6"
     },
     {
       "path": "assets/Images/add_icon.png",

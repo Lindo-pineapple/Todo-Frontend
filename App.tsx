@@ -22,8 +22,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     alignContent: 'flex-end',
     justifyContent: 'flex-end',
-    backgroundColor: '#EFF2F7',
-    padding: 10,
+    backgroundColor: '#CCD9E5',
   },
   contentContainer: {
     display: 'flex',
@@ -31,31 +30,42 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     alignContent: 'space-around',
     justifyContent: 'space-around',
+    backgroundColor: '#EFF2F7',
   },
   title: {
     fontSize: 64,
-    fontFamily: 'HurmeGeometricSans3-Bold',
+    fontFamily: 'HurmeGeometricSans1-Bold',
     color: '#2D2E30',
-    marginHorizontal: 10,
+    marginHorizontal: 20,
   },
   topIcons: {
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-between',
-    margin: 10,
+    backgroundColor: '#EFF2F7',
+    borderTopRightRadius: 60,
+    borderTopLeftRadius: 60,
+    padding: 20,
   },
   menuIcon: {
-    width: 30,
-    height: 45,
+    width: 35,
+    height: 40,
+    left: 5,
   },
   bellIcon: {
     fontWeight: 'bold',
     color: 'black',
-    top: 10,
+    // top: 10,
+  },
+  footer: {
+    justifyContent: 'flex-end',
+    backgroundColor: '#CCD9E5',
   },
   bottomContainer: {
     justifyContent: 'flex-end',
     backgroundColor: '#EFF2F7',
+    borderBottomRightRadius: 60,
+    borderBottomLeftRadius: 60,
   },
   plusBackground: {
     alignSelf: 'flex-end',
@@ -63,6 +73,7 @@ const styles = StyleSheet.create({
     height: 100,
     top: 4,
     right: 0.8,
+    borderBottomRightRadius: 70,
   },
   plusText: {
     alignSelf: 'flex-end',
@@ -71,8 +82,8 @@ const styles = StyleSheet.create({
 
 export default function App(): React.JSX.Element {
   const [modalVisible, setModalVisible] = useState(false);
-  const AddIcon = require('./assets/Images/Add-Icon.png');
-  const MenuIcon = require('./assets/Images/BurgerMenu.png');
+  const AddIcon = require('./assets/Images/add_icon.png');
+  const MenuIcon = require('./assets/Images/burger_menu.png');
   return (
     <>
       <SafeAreaView style={styles.main}>
@@ -95,10 +106,12 @@ export default function App(): React.JSX.Element {
           onModalPress={() => setModalVisible(!modalVisible)}
         />
       </SafeAreaView>
-      <SafeAreaView style={styles.bottomContainer}>
-        <Pressable onPress={() => setModalVisible(true)}>
-          <ImageBackground style={styles.plusBackground} source={AddIcon} />
-        </Pressable>
+      <SafeAreaView style={styles.footer}>
+        <SafeAreaView style={styles.bottomContainer}>
+          <Pressable onPress={() => setModalVisible(true)}>
+            <ImageBackground style={styles.plusBackground} source={AddIcon} />
+          </Pressable>
+        </SafeAreaView>
       </SafeAreaView>
     </>
   );

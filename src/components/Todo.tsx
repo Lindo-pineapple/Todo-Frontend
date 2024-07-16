@@ -36,7 +36,8 @@ const styles = StyleSheet.create({
   title: {
     alignSelf: 'flex-start',
     fontSize: 22,
-    fontFamily: 'HurmeGeometricSans1-Bold',
+    fontFamily: 'LexendDeca-VariableFont_wght',
+    fontWeight: '600',
     color: 'black',
   },
   dateText: {
