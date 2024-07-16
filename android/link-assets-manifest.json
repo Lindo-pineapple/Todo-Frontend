@@ -6,8 +6,40 @@
       "sha1": "c3c969c44a97760dd2dfd01c452976c725307b42"
     },
     {
+      "path": "assets/Fonts/HurmeGeometricSans1-Black.otf",
+      "sha1": "11307a7de1b1fa93b6dd39b1092fbb765f1a5f62"
+    },
+    {
+      "path": "assets/Fonts/HurmeGeometricSans1-Bold.otf",
+      "sha1": "b895f52ebea9afc1ded80c25b3ac6638766aa587"
+    },
+    {
+      "path": "assets/Fonts/HurmeGeometricSans1-BoldOblique.otf",
+      "sha1": "6300cf889a5cd8d70b0c0a08b8d284aa367f3906"
+    },
+    {
+      "path": "assets/Fonts/HurmeGeometricSans1-Light.otf",
+      "sha1": "6809f40170cce91d32532f34f78405c4fd3ff09a"
+    },
+    {
+      "path": "assets/Fonts/HurmeGeometricSans1-SemiBold.otf",
+      "sha1": "869b5d9b6af2da59f38c75fed64ee2dfa84a0e11"
+    },
+    {
+      "path": "assets/Fonts/HurmeGeometricSans1-Thin.otf",
+      "sha1": "5ff0e53adf7e122c2b2caa9d50909888cd175349"
+    },
+    {
+      "path": "assets/Fonts/HurmeGeometricSans1.otf",
+      "sha1": "f0ae95b664dbc15a7b7420a681533ae91f05a87a"
+    },
+    {
       "path": "assets/Fonts/HurmeGeometricSans3-Bold.ttf",
       "sha1": "cfee6660141a9c1f5b614d53e08ff4003fa094f2"
+    },
+    {
+      "path": "assets/Fonts/LexendDeca-VariableFont_wght.ttf",
+      "sha1": "fb53c1a5dacd294c03804798f6a0c785ed48d33a"
     },
     {
       "path": "assets/Icons/icomoon.ttf",
@@ -15,7 +47,23 @@
     },
     {
       "path": "assets/Icons/selection.json",
-      "sha1": "f2f51c37fb66b79d5dcdf6bc589cb1f2dcec9240"
+      "sha1": "09bf2f6ee93761bdcdc2fe44aba7ca352835288e"
+    },
+    {
+      "path": "assets/Images/Add-Icon.png",
+      "sha1": "d8821b6077e4f0847f0093d81ef2517082a3a901"
+    },
+    {
+      "path": "assets/Images/BurgerMenu.png",
+      "sha1": "5eef330c26532c7a8660645704fe13cc70aa33f6"
+    },
+    {
+      "path": "assets/Images/add_icon.png",
+      "sha1": "d8821b6077e4f0847f0093d81ef2517082a3a901"
+    },
+    {
+      "path": "assets/Images/burger_menu.png",
+      "sha1": "5eef330c26532c7a8660645704fe13cc70aa33f6"
     }
   ]
 }

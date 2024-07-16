@@ -1,8 +1,15 @@
 import React, {useState} from 'react';
-import {Pressable, SafeAreaView, StyleSheet, Text} from 'react-native';
+import {
+  ImageBackground,
+  Pressable,
+  SafeAreaView,
+  StyleSheet,
+  Text,
+} from 'react-native';
 import TodoItem from './src/components/TodoItem';
 import CreateTodoModal from './src/components/CreateTodoModal';
-import CustomIcon from './assets/CustomIcon';
+import {Image} from '@rneui/themed';
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 //BLUE COLOR = #0076FE
 //FADE BACK COLOR WHEN MODAL IS UP = #BEC6D1
@@ -16,6 +23,7 @@ const styles = StyleSheet.create({
     alignContent: 'flex-end',
     justifyContent: 'flex-end',
     backgroundColor: '#EFF2F7',
+    padding: 10,
   },
   contentContainer: {
     display: 'flex',
@@ -37,52 +45,61 @@ const styles = StyleSheet.create({
     margin: 10,
   },
   menuIcon: {
-    fontWeight: 'bold',
-    fontSize: 24,
-    color: 'black',
-    backgroundColor: 'red',
+    width: 30,
+    height: 45,
   },
   bellIcon: {
     fontWeight: 'bold',
-    fontSize: 24,
     color: 'black',
-    backgroundColor: 'red',
+    top: 10,
   },
   bottomContainer: {
     justifyContent: 'flex-end',
+    backgroundColor: '#EFF2F7',
   },
-  plus: {
+  plusBackground: {
+    alignSelf: 'flex-end',
+    width: 100,
+    height: 100,
+    top: 4,
+    right: 0.8,
+  },
+  plusText: {
     alignSelf: 'flex-end',
   },
 });
 
 export default function App(): React.JSX.Element {
   const [modalVisible, setModalVisible] = useState(false);
+  const AddIcon = require('./assets/Images/Add-Icon.png');
+  const MenuIcon = require('./assets/Images/BurgerMenu.png');
   return (
-    <SafeAreaView style={styles.main}>
-      <SafeAreaView style={styles.topIcons}>
-        {/* Use React Navigation */}
-        <Text style={styles.menuIcon}>Icon</Text>
-        <Text style={styles.bellIcon}>Icon</Text>
+    <>
+      <SafeAreaView style={styles.main}>
+        <SafeAreaView style={styles.topIcons}>
+          {/* Use React Navigation */}
+          <Image style={styles.menuIcon} source={MenuIcon} />
+          <Icon
+            style={styles.bellIcon}
+            name={'bell-badge'}
+            size={37}
+            color={'black'}
+          />
+        </SafeAreaView>
+        <SafeAreaView style={styles.contentContainer}>
+          <Text style={styles.title}>Today</Text>
+          <TodoItem />
+        </SafeAreaView>
+        <CreateTodoModal
+          modalVisible={modalVisible}
+          onModalPress={() => setModalVisible(!modalVisible)}
+        />
       </SafeAreaView>
-      <SafeAreaView style={styles.contentContainer}>
-        <Text style={styles.title}>Today</Text>
-        <TodoItem />
-      </SafeAreaView>
-      <CreateTodoModal
-        modalVisible={modalVisible}
-        onModalPress={() => setModalVisible(!modalVisible)}
-      />
       <SafeAreaView style={styles.bottomContainer}>
         <Pressable onPress={() => setModalVisible(true)}>
-          <CustomIcon
-            style={styles.plus}
-            name="leafIcon-no-bg"
-            size={99}
-            color="#0076FE"
-          />
+          <ImageBackground style={styles.plusBackground} source={AddIcon} />
         </Pressable>
       </SafeAreaView>
-    </SafeAreaView>
+    </>
   );
 }

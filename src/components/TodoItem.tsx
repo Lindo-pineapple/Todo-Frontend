@@ -13,26 +13,29 @@ const TODOS: ITodo[] | any = [
     isDone: true,
     userId: '668d40069e8cecf19b90a19f',
     createdAt: '10:30 AM',
+    updatedAt: '2024-07-15T10:30:35.831Z',
     __v: 0,
   },
   {
     _id: '668e2ed37092951c758c3016',
     todo: 'Doodle a sunset',
     description:
-      'Make sure every single part of the backend works as it should.',
+      'Capture Sunset in Doodle with pen and paper today of the evening.',
     isDone: false,
     userId: '668d40069e8cecf19b90a19f',
     createdAt: '06:45 PM',
+    updatedAt: '2024-05-25T18:45:35.831Z',
     __v: 0,
   },
   {
     _id: '668fe5d286ac87026d767cc4',
     todo: 'Call family',
     description:
-      'Do the Frontend Design, and make it it look like it is supposed to.',
+      'Capture Sunset in Doodle with pen and paper today of the evening.',
     isDone: false,
     userId: '668d40069e8cecf19b90a19f',
     createdAt: '11:25 PM',
+    updatedAt: '2024-07-15T23:25:35.831Z',
     __v: 0,
   },
 ];

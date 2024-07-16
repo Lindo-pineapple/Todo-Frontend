@@ -36,13 +36,14 @@ const styles = StyleSheet.create({
   title: {
     alignSelf: 'flex-start',
     fontSize: 22,
-    fontFamily: 'HurmeGeometricSans3-Bold',
+    fontFamily: 'HurmeGeometricSans1-Bold',
+    color: 'black',
   },
   dateText: {
     alignSelf: 'flex-start',
     fontSize: 16,
-    fontFamily: 'HurmeGeometricSans3-Bold',
-    color: 'lightgray',
+    fontFamily: 'HurmeGeometricSans1',
+    color: ' #999999',
     marginVertical: 5,
   },
 });
