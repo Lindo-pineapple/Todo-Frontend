@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 64,
-    fontFamily: 'HurmeGeometricSans1-Bold',
+    fontFamily: 'Sofia Pro Semi Bold Az',
     color: '#2D2E30',
     marginHorizontal: 20,
   },

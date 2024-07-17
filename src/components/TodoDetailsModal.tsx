@@ -42,14 +42,18 @@ const TodoDetailsModal = (props: {
         <SafeAreaView style={styles.contentContainer}>
           <SafeAreaView style={styles.textContainer}>
             <Text style={styles.titleText}>{props.Todo.todo}</Text>
-            <Text style={styles.dateText}>
+            <SafeAreaView style={styles.timeTextContainer}>
               <Icon
                 name={'clock-time-four-outline'}
-                size={20}
-                color={'lightgray'}
-              />{' '}
-              {FormatDateTime(props.Todo.updatedAt!)}
-            </Text>
+                size={27}
+                color={'#bfbfbf'}
+                style={styles.clockIcon}
+              />
+              <Text style={styles.dateText}>
+                {' '}
+                {FormatDateTime(props.Todo.updatedAt!)}
+              </Text>
+            </SafeAreaView>
           </SafeAreaView>
           <Text style={styles.descriptionText}>{props.Todo.description}</Text>
           <Pressable

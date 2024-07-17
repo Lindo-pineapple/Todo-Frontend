@@ -36,15 +36,15 @@ const styles = StyleSheet.create({
   title: {
     alignSelf: 'flex-start',
     fontSize: 22,
-    fontFamily: 'LexendDeca-VariableFont_wght',
+    fontFamily: 'Sofia Pro Semi Bold Az',
     fontWeight: '600',
     color: 'black',
   },
   dateText: {
     alignSelf: 'flex-start',
     fontSize: 16,
-    fontFamily: 'HurmeGeometricSans1',
-    color: ' #999999',
+    fontFamily: 'HurmeGeometricSans1-Bold',
+    color: '#cccccc',
     marginVertical: 5,
   },
 });
