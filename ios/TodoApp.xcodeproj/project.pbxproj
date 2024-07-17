@@ -8,49 +8,69 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* TodoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TodoAppTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-TodoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-TodoApp.a */; };
-		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
-		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-TodoApp-TodoAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-TodoApp-TodoAppTests.a */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		8ACA5E32998E09E3F93CB7E4 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = C316EA0E4E56AE24D89B52A7 /* PrivacyInfo.xcprivacy */; };
-		09C8A395FE1B4908BB23E657 /* HurmeGeometricSans3-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F80B9AC6F5914624B3741296 /* HurmeGeometricSans3-Bold.ttf */; };
-		115FB21FD82042A4A30476C7 /* Caveat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90B432AF1C46F98C37A4F4 /* Caveat-Regular.ttf */; };
+		8A8EE9BB5683445FB0ED397E /* Sofia Pro Black Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 99C0C9B1B730488CAF1A8C79 /* Sofia Pro Black Az.otf */; };
+		5B31382ECD2C45E2B10BBA88 /* Sofia Pro Black Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 70D649AA08494042B07ECE25 /* Sofia Pro Black Italic Az.otf */; };
+		0D090DB7B5924CA0AA5BF260 /* Sofia Pro Bold Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6C1DE89FC234218B0188E5D /* Sofia Pro Bold Az.otf */; };
+		A89E3654532D4EE8BC7A1719 /* Sofia Pro Bold Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = B4F538E14C74492F9A8C2110 /* Sofia Pro Bold Italic Az.otf */; };
+		3B35C3B3683040B18CAFCA66 /* Sofia Pro ExtraLight Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 351924AF7A6A43998084AAA0 /* Sofia Pro ExtraLight Az.otf */; };
+		F6CDD9F8C3F547E9B040EA1C /* Sofia Pro ExtraLight Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = C132145EFAAC4DC18D32863B /* Sofia Pro ExtraLight Italic Az.otf */; };
+		B3D8C55EF376496988F4AEA9 /* Sofia Pro Light Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 937B1DABD34B48C289ED4CCB /* Sofia Pro Light Az.otf */; };
+		9A4AD018FAFD40759F9AC32B /* Sofia Pro Light Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72937C973D78455E81390B20 /* Sofia Pro Light Italic Az.otf */; };
+		47C4B9998F404C37AC02A965 /* Sofia Pro Medium Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82CA4161A7E3451EA489B35B /* Sofia Pro Medium Az.otf */; };
+		FED008B594074ABCB397355A /* Sofia Pro Medium Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1368648BBCAD4D49A4E47CA1 /* Sofia Pro Medium Italic Az.otf */; };
+		97091A4D158147898B954B6D /* Sofia Pro Regular Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = BCF75D042DD14C64820C0986 /* Sofia Pro Regular Az.otf */; };
+		6504035C69BD49EFBAB4CCE4 /* Sofia Pro Regular Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = E068263C1DE24ADFA2563B92 /* Sofia Pro Regular Italic Az.otf */; };
+		DCC1F53600F847DCAE3AA947 /* Sofia Pro Semi Bold Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = E43969D8F0E4439B92CFF7D2 /* Sofia Pro Semi Bold Az.otf */; };
+		F658F4320F584BB8B4CDF4AB /* Sofia Pro Semi Bold Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = CB732EEDE7104CE8BE9F84FC /* Sofia Pro Semi Bold Italic Az.otf */; };
+		3A988F705091421C80B55BD3 /* Sofia Pro UltraLight Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 258C3B68A26C43A3B1532C0B /* Sofia Pro UltraLight Az.otf */; };
+		023EFE6C2545455A9293D37D /* Sofia Pro UltraLight Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = D54128326000424D80254C68 /* Sofia Pro UltraLight Italic Az.otf */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = TodoApp;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00E356EE1AD99517003FC87E /* TodoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* TodoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoAppTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* TodoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0157E4AEAC534975BC46A65D /* HurmeGeometricSans1-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HurmeGeometricSans1-Light.otf"; path = "../assets/Fonts/HurmeGeometricSans1-Light.otf"; sourceTree = "<group>"; };
+		06E0D88AD87C4CCBB7720124 /* icomoon.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = icomoon.ttf; path = ../assets/Icons/icomoon.ttf; sourceTree = "<group>"; };
+		09F142FEC6474373A43DFF84 /* selection.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = selection.json; path = ../assets/Icons/selection.json; sourceTree = "<group>"; };
+		0F1C742A2C468F9600B8AA6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FC494772C46771C0096C047 /* hermes.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = hermes.xcframework; path = "Pods/hermes-engine/destroot/Library/Frameworks/universal/hermes.xcframework"; sourceTree = "<group>"; };
+		0FC494792C4677350096C047 /* libReact-hermes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-hermes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TodoApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = TodoApp/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TodoApp/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TodoApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TodoApp/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = TodoApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-TodoApp-TodoAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TodoApp-TodoAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-TodoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoApp.debug.xcconfig"; path = "Target Support Files/Pods-TodoApp/Pods-TodoApp.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-TodoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoApp.release.xcconfig"; path = "Target Support Files/Pods-TodoApp/Pods-TodoApp.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-TodoApp-TodoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoApp-TodoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TodoApp-TodoAppTests/Pods-TodoApp-TodoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-TodoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TodoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2359E622A18D4380B4914988 /* HurmeGeometricSans1-BoldOblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HurmeGeometricSans1-BoldOblique.otf"; path = "../assets/Fonts/HurmeGeometricSans1-BoldOblique.otf"; sourceTree = "<group>"; };
+		280B1E281672488BA3AF932F /* HurmeGeometricSans1.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = HurmeGeometricSans1.otf; path = ../assets/Fonts/HurmeGeometricSans1.otf; sourceTree = "<group>"; };
+		2988D5FDC1964B2A9E4C3C40 /* Caveat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Caveat-Regular.ttf"; path = "../assets/Fonts/Caveat-Regular.ttf"; sourceTree = "<group>"; };
+		3D5DE665BBA849D08D4390E8 /* add_icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = add_icon.png; path = ../assets/Images/add_icon.png; sourceTree = "<group>"; };
+		4008EADD2F824ABAA2042DC8 /* burger_menu.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = burger_menu.png; path = ../assets/Images/burger_menu.png; sourceTree = "<group>"; };
+		480BCB9EB4C54AD88279AFC3 /* HurmeGeometricSans1-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HurmeGeometricSans1-Black.otf"; path = "../assets/Fonts/HurmeGeometricSans1-Black.otf"; sourceTree = "<group>"; };
+		588BFFD64DAC4485A2766F2E /* HurmeGeometricSans1-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HurmeGeometricSans1-Thin.otf"; path = "../assets/Fonts/HurmeGeometricSans1-Thin.otf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TodoApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-TodoApp-TodoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoApp-TodoAppTests.release.xcconfig"; path = "Target Support Files/Pods-TodoApp-TodoAppTests/Pods-TodoApp-TodoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		93A07E6B44F24A338CCEBAC0 /* HurmeGeometricSans3-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HurmeGeometricSans3-Bold.ttf"; path = "../assets/Fonts/HurmeGeometricSans3-Bold.ttf"; sourceTree = "<group>"; };
+		985681083E5545CC815E9A85 /* HurmeGeometricSans1-SemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HurmeGeometricSans1-SemiBold.otf"; path = "../assets/Fonts/HurmeGeometricSans1-SemiBold.otf"; sourceTree = "<group>"; };
+		A3FFC1838EAE42B5BBE9F8EC /* LexendDeca-VariableFont_wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "LexendDeca-VariableFont_wght.ttf"; path = "../assets/Fonts/LexendDeca-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		C316EA0E4E56AE24D89B52A7 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = TodoApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F80B9AC6F5914624B3741296 /* HurmeGeometricSans3-Bold.ttf */ = {isa = PBXFileReference; name = "HurmeGeometricSans3-Bold.ttf"; path = "../assets/fonts/HurmeGeometricSans3-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		EC90B432AF1C46F98C37A4F4 /* Caveat-Regular.ttf */ = {isa = PBXFileReference; name = "Caveat-Regular.ttf"; path = "../assets/fonts/Caveat-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FCE4EDDD4CB7417D86524A43 /* HurmeGeometricSans1-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HurmeGeometricSans1-Bold.otf"; path = "../assets/Fonts/HurmeGeometricSans1-Bold.otf"; sourceTree = "<group>"; };
+		99C0C9B1B730488CAF1A8C79 /* Sofia Pro Black Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Black Az.otf"; path = "../assets/Fonts/Sofia Pro Black Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		70D649AA08494042B07ECE25 /* Sofia Pro Black Italic Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Black Italic Az.otf"; path = "../assets/Fonts/Sofia Pro Black Italic Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C6C1DE89FC234218B0188E5D /* Sofia Pro Bold Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Bold Az.otf"; path = "../assets/Fonts/Sofia Pro Bold Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B4F538E14C74492F9A8C2110 /* Sofia Pro Bold Italic Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Bold Italic Az.otf"; path = "../assets/Fonts/Sofia Pro Bold Italic Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		351924AF7A6A43998084AAA0 /* Sofia Pro ExtraLight Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro ExtraLight Az.otf"; path = "../assets/Fonts/Sofia Pro ExtraLight Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C132145EFAAC4DC18D32863B /* Sofia Pro ExtraLight Italic Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro ExtraLight Italic Az.otf"; path = "../assets/Fonts/Sofia Pro ExtraLight Italic Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		937B1DABD34B48C289ED4CCB /* Sofia Pro Light Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Light Az.otf"; path = "../assets/Fonts/Sofia Pro Light Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		72937C973D78455E81390B20 /* Sofia Pro Light Italic Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Light Italic Az.otf"; path = "../assets/Fonts/Sofia Pro Light Italic Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		82CA4161A7E3451EA489B35B /* Sofia Pro Medium Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Medium Az.otf"; path = "../assets/Fonts/Sofia Pro Medium Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1368648BBCAD4D49A4E47CA1 /* Sofia Pro Medium Italic Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Medium Italic Az.otf"; path = "../assets/Fonts/Sofia Pro Medium Italic Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BCF75D042DD14C64820C0986 /* Sofia Pro Regular Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Regular Az.otf"; path = "../assets/Fonts/Sofia Pro Regular Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E068263C1DE24ADFA2563B92 /* Sofia Pro Regular Italic Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Regular Italic Az.otf"; path = "../assets/Fonts/Sofia Pro Regular Italic Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E43969D8F0E4439B92CFF7D2 /* Sofia Pro Semi Bold Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Semi Bold Az.otf"; path = "../assets/Fonts/Sofia Pro Semi Bold Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CB732EEDE7104CE8BE9F84FC /* Sofia Pro Semi Bold Italic Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Semi Bold Italic Az.otf"; path = "../assets/Fonts/Sofia Pro Semi Bold Italic Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		258C3B68A26C43A3B1532C0B /* Sofia Pro UltraLight Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro UltraLight Az.otf"; path = "../assets/Fonts/Sofia Pro UltraLight Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D54128326000424D80254C68 /* Sofia Pro UltraLight Italic Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro UltraLight Italic Az.otf"; path = "../assets/Fonts/Sofia Pro UltraLight Italic Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +78,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-TodoApp-TodoAppTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-TodoApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,11 +107,11 @@
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
-				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
 				C316EA0E4E56AE24D89B52A7 /* PrivacyInfo.xcprivacy */,
+				0F1C742A2C468F9600B8AA6C /* Info.plist */,
 			);
 			name = TodoApp;
 			sourceTree = "<group>";
@@ -108,9 +119,9 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0FC494792C4677350096C047 /* libReact-hermes.a */,
+				0FC494772C46771C0096C047 /* hermes.xcframework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-TodoApp.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-TodoApp-TodoAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -141,7 +152,6 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* TodoApp.app */,
 				00E356EE1AD99517003FC87E /* TodoAppTests.xctest */,
 			);
 			name = Products;
@@ -150,23 +160,46 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-TodoApp.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-TodoApp.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-TodoApp-TodoAppTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-TodoApp-TodoAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		D1143B61E47C455F9CC0933E /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
-				F80B9AC6F5914624B3741296 /* HurmeGeometricSans3-Bold.ttf */,
-				EC90B432AF1C46F98C37A4F4 /* Caveat-Regular.ttf */,
+				2988D5FDC1964B2A9E4C3C40 /* Caveat-Regular.ttf */,
+				93A07E6B44F24A338CCEBAC0 /* HurmeGeometricSans3-Bold.ttf */,
+				A3FFC1838EAE42B5BBE9F8EC /* LexendDeca-VariableFont_wght.ttf */,
+				06E0D88AD87C4CCBB7720124 /* icomoon.ttf */,
+				09F142FEC6474373A43DFF84 /* selection.json */,
+				3D5DE665BBA849D08D4390E8 /* add_icon.png */,
+				4008EADD2F824ABAA2042DC8 /* burger_menu.png */,
+				480BCB9EB4C54AD88279AFC3 /* HurmeGeometricSans1-Black.otf */,
+				FCE4EDDD4CB7417D86524A43 /* HurmeGeometricSans1-Bold.otf */,
+				2359E622A18D4380B4914988 /* HurmeGeometricSans1-BoldOblique.otf */,
+				0157E4AEAC534975BC46A65D /* HurmeGeometricSans1-Light.otf */,
+				985681083E5545CC815E9A85 /* HurmeGeometricSans1-SemiBold.otf */,
+				588BFFD64DAC4485A2766F2E /* HurmeGeometricSans1-Thin.otf */,
+				280B1E281672488BA3AF932F /* HurmeGeometricSans1.otf */,
+				99C0C9B1B730488CAF1A8C79 /* Sofia Pro Black Az.otf */,
+				70D649AA08494042B07ECE25 /* Sofia Pro Black Italic Az.otf */,
+				C6C1DE89FC234218B0188E5D /* Sofia Pro Bold Az.otf */,
+				B4F538E14C74492F9A8C2110 /* Sofia Pro Bold Italic Az.otf */,
+				351924AF7A6A43998084AAA0 /* Sofia Pro ExtraLight Az.otf */,
+				C132145EFAAC4DC18D32863B /* Sofia Pro ExtraLight Italic Az.otf */,
+				937B1DABD34B48C289ED4CCB /* Sofia Pro Light Az.otf */,
+				72937C973D78455E81390B20 /* Sofia Pro Light Italic Az.otf */,
+				82CA4161A7E3451EA489B35B /* Sofia Pro Medium Az.otf */,
+				1368648BBCAD4D49A4E47CA1 /* Sofia Pro Medium Italic Az.otf */,
+				BCF75D042DD14C64820C0986 /* Sofia Pro Regular Az.otf */,
+				E068263C1DE24ADFA2563B92 /* Sofia Pro Regular Italic Az.otf */,
+				E43969D8F0E4439B92CFF7D2 /* Sofia Pro Semi Bold Az.otf */,
+				CB732EEDE7104CE8BE9F84FC /* Sofia Pro Semi Bold Italic Az.otf */,
+				258C3B68A26C43A3B1532C0B /* Sofia Pro UltraLight Az.otf */,
+				D54128326000424D80254C68 /* Sofia Pro UltraLight Italic Az.otf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -175,43 +208,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TodoAppTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
 			name = TodoAppTests;
 			productName = TodoAppTests;
 			productReference = 00E356EE1AD99517003FC87E /* TodoAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		13B07F861A680F5B00A75B9A /* TodoApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TodoApp" */;
-			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
-				13B07F871A680F5B00A75B9A /* Sources */,
-				13B07F8C1A680F5B00A75B9A /* Frameworks */,
-				13B07F8E1A680F5B00A75B9A /* Resources */,
-				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TodoApp;
-			productName = TodoApp;
-			productReference = 13B07F961A680F5B00A75B9A /* TodoApp.app */;
-			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -219,14 +227,12 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1210;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
-					};
-					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
 					};
 				};
 			};
@@ -243,7 +249,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* TodoApp */,
 				00E356ED1AD99517003FC87E /* TodoAppTests */,
 			);
 		};
@@ -254,153 +259,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		13B07F8E1A680F5B00A75B9A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
-				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				8ACA5E32998E09E3F93CB7E4 /* PrivacyInfo.xcprivacy in Resources */,
-				09C8A395FE1B4908BB23E657 /* HurmeGeometricSans3-Bold.ttf in Resources */,
-				115FB21FD82042A4A30476C7 /* Caveat-Regular.ttf in Resources */,
+				8A8EE9BB5683445FB0ED397E /* Sofia Pro Black Az.otf in Resources */,
+				5B31382ECD2C45E2B10BBA88 /* Sofia Pro Black Italic Az.otf in Resources */,
+				0D090DB7B5924CA0AA5BF260 /* Sofia Pro Bold Az.otf in Resources */,
+				A89E3654532D4EE8BC7A1719 /* Sofia Pro Bold Italic Az.otf in Resources */,
+				3B35C3B3683040B18CAFCA66 /* Sofia Pro ExtraLight Az.otf in Resources */,
+				F6CDD9F8C3F547E9B040EA1C /* Sofia Pro ExtraLight Italic Az.otf in Resources */,
+				B3D8C55EF376496988F4AEA9 /* Sofia Pro Light Az.otf in Resources */,
+				9A4AD018FAFD40759F9AC32B /* Sofia Pro Light Italic Az.otf in Resources */,
+				47C4B9998F404C37AC02A965 /* Sofia Pro Medium Az.otf in Resources */,
+				FED008B594074ABCB397355A /* Sofia Pro Medium Italic Az.otf in Resources */,
+				97091A4D158147898B954B6D /* Sofia Pro Regular Az.otf in Resources */,
+				6504035C69BD49EFBAB4CCE4 /* Sofia Pro Regular Italic Az.otf in Resources */,
+				DCC1F53600F847DCAE3AA947 /* Sofia Pro Semi Bold Az.otf in Resources */,
+				F658F4320F584BB8B4CDF4AB /* Sofia Pro Semi Bold Italic Az.otf in Resources */,
+				3A988F705091421C80B55BD3 /* Sofia Pro UltraLight Az.otf in Resources */,
+				023EFE6C2545455A9293D37D /* Sofia Pro UltraLight Italic Az.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/.xcode.env.local",
-				"$(SRCROOT)/.xcode.env",
-			);
-			name = "Bundle React Native code and images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-			shellPath = /bin/sh;
-			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
-		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TodoApp/Pods-TodoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TodoApp/Pods-TodoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TodoApp/Pods-TodoApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TodoApp-TodoAppTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TodoApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TodoApp-TodoAppTests/Pods-TodoApp-TodoAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TodoApp-TodoAppTests/Pods-TodoApp-TodoAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TodoApp-TodoAppTests/Pods-TodoApp-TodoAppTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TodoApp/Pods-TodoApp-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TodoApp/Pods-TodoApp-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TodoApp/Pods-TodoApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TodoApp-TodoAppTests/Pods-TodoApp-TodoAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TodoApp-TodoAppTests/Pods-TodoApp-TodoAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TodoApp-TodoAppTests/Pods-TodoApp-TodoAppTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		00E356EA1AD99517003FC87E /* Sources */ = {
@@ -411,29 +289,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		13B07F871A680F5B00A75B9A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
-				13B07FC11A68108700A75B9A /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* TodoApp */;
-			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-TodoApp-TodoAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -460,7 +320,6 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-TodoApp-TodoAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -479,60 +338,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoApp.app/TodoApp";
-			};
-			name = Release;
-		};
-		13B07F941A680F5B00A75B9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-TodoApp.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_BITCODE = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = TodoApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = TodoApp;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				VERSIONING_SYSTEM = "apple-generic";
-			};
-			name = Debug;
-		};
-		13B07F951A680F5B00A75B9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-TodoApp.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = TodoApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = TodoApp;
-				SWIFT_VERSION = 5.0;
-				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
@@ -707,16 +512,7 @@
 				00E356F71AD99517003FC87E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TodoApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				13B07F941A680F5B00A75B9A /* Debug */,
-				13B07F951A680F5B00A75B9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TodoApp" */ = {
 			isa = XCConfigurationList;
@@ -725,7 +521,7 @@
 				83CBBA211A601CBA00E9B192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

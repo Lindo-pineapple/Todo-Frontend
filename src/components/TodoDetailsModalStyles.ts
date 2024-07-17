@@ -31,9 +31,17 @@ export default StyleSheet.create({
     margin: -20,
   },
   textContainer: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    bottom: 20,
+  },
+  timeTextContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     top: 10,
+    marginBottom: 20,
   },
   button: {
     alignContent: 'center',
@@ -46,27 +54,29 @@ export default StyleSheet.create({
   },
   textStyle: {
     color: 'white',
-    fontFamily: 'HurmeGeometricSans3-Bold',
+    fontFamily: 'Sofia Pro Semi Bold Az',
     textAlign: 'center',
-    fontSize: 20,
+    fontSize: 25,
   },
   titleText: {
-    fontSize: 30,
-    fontFamily: 'HurmeGeometricSans3-Bold',
+    fontSize: 32,
+    fontFamily: 'Sofia Pro Semi Bold Az',
     color: '#2D2E30',
-    textAlign: 'left',
-    bottom: 30,
-  },
-  dateText: {
-    fontSize: 18,
-    fontFamily: 'HurmeGeometricSans3-Bold',
-    color: 'lightgray',
     bottom: 20,
   },
+  clockIcon: {
+    top: 10,
+  },
+  dateText: {
+    fontSize: 22,
+    fontFamily: 'Sofia Pro Medium Az',
+    color: '#bfbfbf',
+    top: 8,
+  },
   descriptionText: {
-    fontSize: 18,
-    fontFamily: 'HurmeGeometricSans3-Bold',
-    color: 'lightgray',
+    fontSize: 20,
+    fontFamily: 'Sofia Pro Medium Az',
+    color: '#bfbfbf',
     bottom: 20,
   },
 });

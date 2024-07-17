@@ -1,6 +1,21 @@
-import {CheckBox} from '@rneui/themed';
+import {CheckBox, Image} from '@rneui/themed';
 import React from 'react';
+import {StyleSheet} from 'react-native';
+import {SafeAreaView, TouchableOpacity} from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+
+const styles = StyleSheet.create({
+  buttonStyles: {
+    flexDirection: 'row',
+    alignContent: 'space-evenly',
+    justifyContent: 'space-evenly',
+    height: 60,
+    margin: 10,
+    bottom: 10,
+  },
+});
+
+const AddTodoIcon = require('../../assets/Images/addITodo.png');
 
 const AddTodo = (props: {state: boolean}) => {
   const [checked, setState] = React.useState(props.state);
@@ -9,19 +24,19 @@ const AddTodo = (props: {state: boolean}) => {
   };
 
   const checkedIcon: React.ReactElement = (
-    <Icon
-      name={'checkbox-multiple-marked-circle'}
-      size={35}
-      color={'#0076FE'}
-    />
+    <SafeAreaView style={styles.buttonStyles}>
+      <TouchableOpacity>
+        <Image source={AddTodoIcon} alt="" />
+      </TouchableOpacity>
+    </SafeAreaView>
   );
 
   const unCheckedIcon: React.ReactElement = (
-    <Icon
-      name={'checkbox-multiple-blank-circle-outline'}
-      size={35}
-      color={'#0076FE'}
-    />
+    <SafeAreaView style={styles.buttonStyles}>
+      <TouchableOpacity>
+        <Image source={AddTodoIcon} alt="" />
+      </TouchableOpacity>
+    </SafeAreaView>
   );
 
   return (

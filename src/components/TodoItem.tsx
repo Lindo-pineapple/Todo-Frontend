@@ -5,52 +5,55 @@ import Todo from './Todo';
 import TodoDetailsModal from './TodoDetailsModal';
 
 //DUMMY DATA FOR DESIGN PURPOSES
-// const TODOS: ITodo[] | any = [
-//   {
-//     _id: '668d4cf8dd3d76c20f8606be',
-//     todo: 'Snap texture photos',
-//     description: 'Create a Fullstack React Native Todo App.',
-//     isDone: true,
-//     userId: '668d40069e8cecf19b90a19f',
-//     createdAt: '10:30 AM',
-//     __v: 0,
-//   },
-//   {
-//     _id: '668e2ed37092951c758c3016',
-//     todo: 'Doodle a sunset',
-//     description:
-//       'Make sure every single part of the backend works as it should.',
-//     isDone: false,
-//     userId: '668d40069e8cecf19b90a19f',
-//     createdAt: '06:45 PM',
-//     __v: 0,
-//   },
-//   {
-//     _id: '668fe5d286ac87026d767cc4',
-//     todo: 'Call family',
-//     description:
-//       'Do the Frontend Design, and make it it look like it is supposed to.',
-//     isDone: false,
-//     userId: '668d40069e8cecf19b90a19f',
-//     createdAt: '11:25 PM',
-//     __v: 0,
-//   },
-// ];
+const TODOS: ITodo[] | any = [
+  {
+    _id: '668d4cf8dd3d76c20f8606be',
+    todo: 'Snap texture photos',
+    description: 'Create a Fullstack React Native Todo App.',
+    isDone: true,
+    userId: '668d40069e8cecf19b90a19f',
+    createdAt: '10:30 AM',
+    updatedAt: '2024-07-15T10:30:35.831Z',
+    __v: 0,
+  },
+  {
+    _id: '668e2ed37092951c758c3016',
+    todo: 'Doodle a sunset',
+    description:
+      'Capture Sunset in Doodle with pen and paper today of the evening.',
+    isDone: false,
+    userId: '668d40069e8cecf19b90a19f',
+    createdAt: '06:45 PM',
+    updatedAt: '2024-05-25T18:45:35.831Z',
+    __v: 0,
+  },
+  {
+    _id: '668fe5d286ac87026d767cc4',
+    todo: 'Call family',
+    description:
+      'Capture Sunset in Doodle with pen and paper today of the evening.',
+    isDone: false,
+    userId: '668d40069e8cecf19b90a19f',
+    createdAt: '11:25 PM',
+    updatedAt: '2024-07-15T23:25:35.831Z',
+    __v: 0,
+  },
+];
 
 const TodoItem: React.FC = () => {
   const [todos, setTodos] = useState<ITodo[]>([]);
   const [modalVisible, setModalVisible] = useState(false);
   const [currentItem, setCurrentItem] = useState<ITodo | undefined>(undefined);
 
-  useEffect(() => {
-    fetchTodos();
-  }, []);
+  // useEffect(() => {
+  //   fetchTodos();
+  // }, []);
 
-  const fetchTodos = async (): Promise<void> => {
-    await getTodos()
-      .then((todos: ITodo[] | any) => setTodos(todos))
-      .catch((err: Error) => console.log(err));
-  };
+  // const fetchTodos = async (): Promise<void> => {
+  //   await getTodos()
+  //     .then((todos: ITodo[] | any) => setTodos(todos))
+  //     .catch((err: Error) => console.log(err));
+  // };
 
   const renderItem = (props: {item: ITodo}) => {
     return (
@@ -83,7 +86,7 @@ const TodoItem: React.FC = () => {
         />
       )}
       <FlatList
-        data={todos}
+        data={TODOS}
         renderItem={renderItem}
         keyExtractor={item => item._id}
       />
