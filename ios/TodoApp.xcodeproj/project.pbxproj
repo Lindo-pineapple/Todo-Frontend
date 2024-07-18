@@ -24,6 +24,8 @@
 		F658F4320F584BB8B4CDF4AB /* Sofia Pro Semi Bold Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = CB732EEDE7104CE8BE9F84FC /* Sofia Pro Semi Bold Italic Az.otf */; };
 		3A988F705091421C80B55BD3 /* Sofia Pro UltraLight Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 258C3B68A26C43A3B1532C0B /* Sofia Pro UltraLight Az.otf */; };
 		023EFE6C2545455A9293D37D /* Sofia Pro UltraLight Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = D54128326000424D80254C68 /* Sofia Pro UltraLight Italic Az.otf */; };
+		3E8B53063ECA47BC84759BA5 /* todo_splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 95A3EDE6A0B3455B85BAF00E /* todo_splash.png */; };
+		403E2AEEA3004E67B6EDA0E7 /* todol_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4CFD7777824D6B86F6972F /* todol_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +73,8 @@
 		CB732EEDE7104CE8BE9F84FC /* Sofia Pro Semi Bold Italic Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Semi Bold Italic Az.otf"; path = "../assets/Fonts/Sofia Pro Semi Bold Italic Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		258C3B68A26C43A3B1532C0B /* Sofia Pro UltraLight Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro UltraLight Az.otf"; path = "../assets/Fonts/Sofia Pro UltraLight Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		D54128326000424D80254C68 /* Sofia Pro UltraLight Italic Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro UltraLight Italic Az.otf"; path = "../assets/Fonts/Sofia Pro UltraLight Italic Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		95A3EDE6A0B3455B85BAF00E /* todo_splash.png */ = {isa = PBXFileReference; name = "todo_splash.png"; path = "../assets/Images/todo_splash.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3D4CFD7777824D6B86F6972F /* todol_icon.png */ = {isa = PBXFileReference; name = "todol_icon.png"; path = "../assets/Images/todol_icon.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +201,8 @@
 				CB732EEDE7104CE8BE9F84FC /* Sofia Pro Semi Bold Italic Az.otf */,
 				258C3B68A26C43A3B1532C0B /* Sofia Pro UltraLight Az.otf */,
 				D54128326000424D80254C68 /* Sofia Pro UltraLight Italic Az.otf */,
+				95A3EDE6A0B3455B85BAF00E /* todo_splash.png */,
+				3D4CFD7777824D6B86F6972F /* todol_icon.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -275,6 +281,8 @@
 				F658F4320F584BB8B4CDF4AB /* Sofia Pro Semi Bold Italic Az.otf in Resources */,
 				3A988F705091421C80B55BD3 /* Sofia Pro UltraLight Az.otf in Resources */,
 				023EFE6C2545455A9293D37D /* Sofia Pro UltraLight Italic Az.otf in Resources */,
+				3E8B53063ECA47BC84759BA5 /* todo_splash.png in Resources */,
+				403E2AEEA3004E67B6EDA0E7 /* todol_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
