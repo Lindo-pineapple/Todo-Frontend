@@ -113,6 +113,9 @@ dependencies {
     } else {
         implementation jscFlavor
     }
+
+    // To implement the splash screen
+    implementation project(':react-native-splash-screen')
 }
 
 apply from: file("../../node_modules/react-native-vector-icons/fonts.gradle");

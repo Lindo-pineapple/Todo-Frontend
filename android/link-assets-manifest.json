@@ -120,6 +120,14 @@
     {
       "path": "assets/Images/burger_menu.png",
       "sha1": "5eef330c26532c7a8660645704fe13cc70aa33f6"
+    },
+    {
+      "path": "assets/Images/todo_splash.png",
+      "sha1": "900cd17c7771b25c1c4a82e9d1cdff3ab495a416"
+    },
+    {
+      "path": "assets/Images/todol_icon.png",
+      "sha1": "e897d83a57ee656b9e37989fe938e2fccb8babce"
     }
   ]
 }

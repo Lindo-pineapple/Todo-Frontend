@@ -1723,6 +1723,7 @@ int color mtrl_textinput_focused_box_stroke_color 0x7f050237
 int color mtrl_textinput_hovered_box_stroke_color 0x7f050238
 int color notification_action_color_filter 0x7f050239
 int color notification_icon_bg_color 0x7f05023a
+int color primary_dark 0x7f050255
 int color primary_dark_material_dark 0x7f05023b
 int color primary_dark_material_light 0x7f05023c
 int color primary_material_dark 0x7f05023d
@@ -1747,6 +1748,7 @@ int color switch_thumb_normal_material_light 0x7f05024f
 int color test_color 0x7f050250
 int color test_mtrl_calendar_day 0x7f050251
 int color test_mtrl_calendar_day_selected 0x7f050252
+int color theme_blue 0x7f050256
 int color tooltip_background_dark 0x7f050253
 int color tooltip_background_light 0x7f050254
 int dimen abc_action_bar_content_inset_material 0x7f060000
@@ -2489,6 +2491,8 @@ int drawable redbox_top_border_background 0x7f070099
 int drawable rn_edit_text_material 0x7f07009a
 int drawable test_custom_background 0x7f07009b
 int drawable test_level_drawable 0x7f07009c
+int drawable todo_splash 0x7f07009f
+int drawable todol_icon 0x7f0700a0
 int drawable tooltip_frame_dark 0x7f07009d
 int drawable tooltip_frame_light 0x7f07009e
 int id ALT 0x7f080000
@@ -3154,6 +3158,7 @@ int layout text_view_with_line_height_from_style 0x7f0b0079
 int layout text_view_with_theme_line_height 0x7f0b007a
 int layout text_view_without_line_height 0x7f0b007b
 int mipmap ic_launcher 0x7f0c0000
+int mipmap ic_launcher_foreground 0x7f0c0002
 int mipmap ic_launcher_round 0x7f0c0001
 int plurals mtrl_badge_content_description 0x7f0d0000
 int string abc_action_bar_home_description 0x7f0e0000
