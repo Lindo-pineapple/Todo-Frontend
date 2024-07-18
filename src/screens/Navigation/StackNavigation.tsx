@@ -17,13 +17,7 @@ const StackNav = () => {
         headerLeft: _props => (
           <DrawerIcon onPress={() => navigation.toggleDrawer()} />
         ),
-        headerRight: _props => (
-          <BellIcon
-            onPress={() => {
-              return <></>;
-            }}
-          />
-        ),
+        headerRight: _props => <BellIcon />,
         title: '',
       })}>
       <Stack.Screen name="Home" component={MainScreen} />

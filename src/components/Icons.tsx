@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {GestureResponderEvent, Image, StyleSheet} from 'react-native';
 import {TouchableOpacity} from 'react-native-gesture-handler';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import NotificationModal from './NotificationModal';
 
 const styles = StyleSheet.create({
   menuIcon: {
@@ -32,17 +33,20 @@ export const DrawerIcon = (props: {
   );
 };
 
-export const BellIcon = (props: {
-  onPress: ((event: GestureResponderEvent) => void) | undefined;
-}) => {
+export const BellIcon = () => {
+  const [visible, setVisible] = useState(false);
   return (
     <TouchableOpacity>
+      <NotificationModal
+        modalVisible={visible}
+        onModalPress={() => setVisible(!visible)}
+      />
       <Icon
         style={styles.bellIcon}
         name={'bell-badge'}
         size={30}
         color={'black'}
-        onPress={props.onPress}
+        onPress={() => setVisible(!visible)}
       />
     </TouchableOpacity>
   );

@@ -1,7 +1,7 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import 'react-native-gesture-handler';
-import DrawerNav from './src/screens/Drawer/DrawerNavigation';
+import DrawerNav from './src/screens/Navigation/DrawerNavigation';
 
 export default function App(): React.JSX.Element {
   return (
