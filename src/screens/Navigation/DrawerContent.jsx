@@ -42,6 +42,7 @@ const DrawerItems = () => {
 };
 
 const DrawerContent = props => {
+  const navigation = useNavigation();
   return (
     <SafeAreaView style={{flex: 1}}>
       <DrawerContentScrollView {...props}>
@@ -70,6 +71,9 @@ const DrawerContent = props => {
             <Icon name="exit-to-app" color={color} size={size} />
           )}
           label="Sign Out"
+          onPress={() => {
+            navigation.navigate('Login');
+          }}
         />
       </SafeAreaView>
     </SafeAreaView>

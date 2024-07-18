@@ -15,10 +15,6 @@ export default function App(): React.JSX.Element {
   });
   const Stack = createNativeStackNavigator();
   return (
-    // <NavigationContainer>
-    //   <DrawerNav />
-    // </NavigationContainer>
-    // <Login />
     <NavigationContainer>
       <Stack.Navigator
         initialRouteName="Login"
@@ -30,6 +26,7 @@ export default function App(): React.JSX.Element {
         }}>
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="Register" component={Register} />
+        <Stack.Screen name="Home" component={DrawerNav} />
       </Stack.Navigator>
     </NavigationContainer>
   );

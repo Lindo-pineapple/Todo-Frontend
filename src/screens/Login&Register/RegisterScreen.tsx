@@ -12,9 +12,13 @@ import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import Feather from 'react-native-vector-icons/Feather';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import {checkedIcon, unCheckedIcon} from '../../components/PasswordCheckBox';
+import {RegisterUser} from '../../api/userApi';
+import {useNavigation} from '@react-navigation/native';
 
 const img = require('../../../assets/Images/todo_splash.png');
+
 const Register = () => {
+  const navigation = useNavigation();
   const [name, setName] = useState('');
   const [nameVerify, setNameVerify] = useState(false);
 
@@ -31,6 +35,19 @@ const Register = () => {
     setNameVerify(false);
     if (nameVar.length >= 2) {
       setNameVerify(true);
+    }
+  }
+
+  async function handleSubmit() {
+    let regUser: any | boolean = await RegisterUser(name, password, email);
+    if (regUser !== false) {
+      this.PasswordInput.clear();
+      setPassword('');
+      this.NameInput.clear();
+      setName('');
+      this.EmailInput.clear();
+      setEmail('');
+      navigation.navigate('Login');
     }
   }
 
@@ -79,6 +96,9 @@ const Register = () => {
               placeholderTextColor={'#b8b8b8'}
               style={styles.textInput}
               onChange={e => handleEmail(e.nativeEvent.text)}
+              ref={input => {
+                this.EmailInputInput = input;
+              }}
             />
             {email.length < 1 ? null : emailVerify ? (
               <Feather name="check-circle" color={'green'} size={20} />
@@ -102,6 +122,9 @@ const Register = () => {
               placeholderTextColor={'#b8b8b8'}
               style={styles.textInput}
               onChange={e => handleName(e.nativeEvent.text)}
+              ref={input => {
+                this.NameInput = input;
+              }}
             />
             {name.length < 1 ? null : nameVerify ? (
               <Feather name="check-circle" color={'green'} size={20} />
@@ -118,7 +141,7 @@ const Register = () => {
             <FontAwesome
               name="lock"
               color={'#0076FE'}
-              size={25}
+              size={28}
               style={(styles.smallIcon, {top: 5, marginRight: 10})}
             />
             <TextInput
@@ -127,6 +150,9 @@ const Register = () => {
               placeholderTextColor={'#b8b8b8'}
               style={styles.textInput}
               onChange={e => handlePassword(e.nativeEvent.text)}
+              ref={input => {
+                this.PasswordInput = input;
+              }}
             />
             <CheckBox
               style={{justifyContent: 'flex-end', alignItems: 'flex-end'}}
@@ -145,7 +171,9 @@ const Register = () => {
           )}
         </SafeAreaView>
         <SafeAreaView style={styles.button}>
-          <TouchableOpacity onPress={() => []} style={styles.inBut}>
+          <TouchableOpacity
+            onPress={() => [handleSubmit()]}
+            style={styles.inBut}>
             <SafeAreaView>
               <Text style={styles.textSign}>Register</Text>
             </SafeAreaView>
