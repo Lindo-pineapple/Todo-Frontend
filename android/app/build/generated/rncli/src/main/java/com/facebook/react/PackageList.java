@@ -13,12 +13,20 @@ import java.util.ArrayList;
 
 // react-native-vector-icons
 import com.oblador.vectoricons.VectorIconsPackage;
+// @react-native-community/masked-view
+import org.reactnative.maskedview.RNCMaskedViewPackage;
 // react-native-config
 import com.lugg.RNCConfig.RNCConfigPackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.RNGestureHandlerPackage;
 // react-native-reanimated
 import com.swmansion.reanimated.ReanimatedPackage;
+// react-native-safe-area-context
+import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
+// react-native-screens
+import com.swmansion.rnscreens.RNScreensPackage;
+// react-native-splash-screen
+import org.devio.rn.splashscreen.SplashScreenReactPackage;
 
 public class PackageList {
   private Application application;
@@ -65,9 +73,13 @@ public class PackageList {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
       new VectorIconsPackage(),
+      new RNCMaskedViewPackage(),
       new RNCConfigPackage(),
       new RNGestureHandlerPackage(),
-      new ReanimatedPackage()
+      new ReanimatedPackage(),
+      new SafeAreaContextPackage(),
+      new RNScreensPackage(),
+      new SplashScreenReactPackage()
     ));
   }
 }

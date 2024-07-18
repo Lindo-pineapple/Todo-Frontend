@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import 'react-native-gesture-handler';
 import {FlatList, Pressable, SafeAreaView} from 'react-native';
 import {getTodos} from '../api/api';
 import Todo from './Todo';
