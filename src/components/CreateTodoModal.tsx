@@ -41,6 +41,7 @@ const CreateTodoModal = (props: {
           <TextInput
             style={styles.input}
             placeholder="Task name"
+            placeholderTextColor={'#b3b3b3'}
             onChangeText={newText => setTitle(newText)}
             defaultValue={title}
             ref={input => {
@@ -51,6 +52,7 @@ const CreateTodoModal = (props: {
             style={styles.multiInput}
             multiline
             placeholder="Add description"
+            placeholderTextColor={'#b3b3b3'}
             onChangeText={newText => setDescription(newText)}
             defaultValue={description}
             ref={input => {

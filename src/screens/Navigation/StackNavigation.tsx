@@ -8,6 +8,7 @@ const StackNav = () => {
     <Stack.Navigator
       screenOptions={({navigation}) => ({
         headerShadowVisible: false,
+        statusBarHidden: true,
         headerStyle: {
           display: 'flex',
           flexDirection: 'row',
