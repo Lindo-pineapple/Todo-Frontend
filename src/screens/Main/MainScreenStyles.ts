@@ -22,6 +22,7 @@ export default StyleSheet.create({
     fontFamily: 'Sofia Pro Semi Bold Az',
     color: '#2D2E30',
     marginHorizontal: 20,
+    top: 10,
   },
   footer: {
     justifyContent: 'flex-end',

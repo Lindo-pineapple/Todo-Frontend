@@ -3075,6 +3075,7 @@ int layout design_text_input_end_icon 0x7f0b002b
 int layout design_text_input_start_icon 0x7f0b002c
 int layout dev_loading_view 0x7f0b002d
 int layout fps_view 0x7f0b002e
+int layout launch_screen 0x7f0b007c
 int layout m3_alert_dialog 0x7f0b002f
 int layout m3_alert_dialog_actions 0x7f0b0030
 int layout m3_alert_dialog_title 0x7f0b0031
@@ -3711,6 +3712,9 @@ int style ShapeAppearanceOverlay_TopLeftCut 0x7f0f017a
 int style ShapeAppearanceOverlay_TopRightDifferentCornerSize 0x7f0f017b
 int style SpinnerDatePickerDialog 0x7f0f017c
 int style SpinnerDatePickerStyle 0x7f0f017d
+int style SplashScreen_Fullscreen 0x7f0f0438
+int style SplashScreen_SplashAnimation 0x7f0f0439
+int style SplashScreen_SplashTheme 0x7f0f043a
 int style Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day 0x7f0f017e
 int style Test_Theme_MaterialComponents_MaterialCalendar 0x7f0f017f
 int style Test_Widget_MaterialComponents_MaterialCalendar 0x7f0f0180

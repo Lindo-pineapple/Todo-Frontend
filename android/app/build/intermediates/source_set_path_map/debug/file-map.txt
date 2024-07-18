@@ -34,9 +34,11 @@ com.todoapp-packageDebugResources-32 /Users/lindokuhledlomo/Documents/DevTest/To
 com.todoapp-merged_res-33 /Users/lindokuhledlomo/Documents/DevTest/TodoApp/Frontend/TodoApp/android/app/build/intermediates/merged_res/debug
 com.todoapp-debug-34 /Users/lindokuhledlomo/Documents/DevTest/TodoApp/Frontend/TodoApp/android/app/src/debug/res
 com.todoapp-main-35 /Users/lindokuhledlomo/Documents/DevTest/TodoApp/Frontend/TodoApp/android/app/src/main/res
-com.todoapp-packaged_res-36 /Users/lindokuhledlomo/Documents/DevTest/TodoApp/Frontend/TodoApp/node_modules/react-native-config/android/build/intermediates/packaged_res/debug
-com.todoapp-packaged_res-37 /Users/lindokuhledlomo/Documents/DevTest/TodoApp/Frontend/TodoApp/node_modules/react-native-gesture-handler/android/build/intermediates/packaged_res/debug
-com.todoapp-packaged_res-38 /Users/lindokuhledlomo/Documents/DevTest/TodoApp/Frontend/TodoApp/node_modules/react-native-reanimated/android/build/intermediates/packaged_res/debug
-com.todoapp-packaged_res-39 /Users/lindokuhledlomo/Documents/DevTest/TodoApp/Frontend/TodoApp/node_modules/react-native-safe-area-context/android/build/intermediates/packaged_res/debug
-com.todoapp-packaged_res-40 /Users/lindokuhledlomo/Documents/DevTest/TodoApp/Frontend/TodoApp/node_modules/react-native-screens/android/build/intermediates/packaged_res/debug
-com.todoapp-packaged_res-41 /Users/lindokuhledlomo/Documents/DevTest/TodoApp/Frontend/TodoApp/node_modules/react-native-vector-icons/android/build/intermediates/packaged_res/debug
+com.todoapp-packaged_res-36 /Users/lindokuhledlomo/Documents/DevTest/TodoApp/Frontend/TodoApp/node_modules/@react-native-community/masked-view/android/build/intermediates/packaged_res/debug
+com.todoapp-packaged_res-37 /Users/lindokuhledlomo/Documents/DevTest/TodoApp/Frontend/TodoApp/node_modules/react-native-config/android/build/intermediates/packaged_res/debug
+com.todoapp-packaged_res-38 /Users/lindokuhledlomo/Documents/DevTest/TodoApp/Frontend/TodoApp/node_modules/react-native-gesture-handler/android/build/intermediates/packaged_res/debug
+com.todoapp-packaged_res-39 /Users/lindokuhledlomo/Documents/DevTest/TodoApp/Frontend/TodoApp/node_modules/react-native-reanimated/android/build/intermediates/packaged_res/debug
+com.todoapp-packaged_res-40 /Users/lindokuhledlomo/Documents/DevTest/TodoApp/Frontend/TodoApp/node_modules/react-native-safe-area-context/android/build/intermediates/packaged_res/debug
+com.todoapp-packaged_res-41 /Users/lindokuhledlomo/Documents/DevTest/TodoApp/Frontend/TodoApp/node_modules/react-native-screens/android/build/intermediates/packaged_res/debug
+com.todoapp-packaged_res-42 /Users/lindokuhledlomo/Documents/DevTest/TodoApp/Frontend/TodoApp/node_modules/react-native-splash-screen/android/build/intermediates/packaged_res/debug
+com.todoapp-packaged_res-43 /Users/lindokuhledlomo/Documents/DevTest/TodoApp/Frontend/TodoApp/node_modules/react-native-vector-icons/android/build/intermediates/packaged_res/debug

@@ -5,14 +5,16 @@ import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 const styles = StyleSheet.create({
   menuIcon: {
-    width: 35,
-    height: 40,
-    left: 5,
+    width: 30,
+    height: 35,
+    left: 10,
+    top: 10,
   },
   bellIcon: {
     fontWeight: 'bold',
     color: 'black',
-    // top: 10,
+    top: 10,
+    right: 10,
   },
 });
 
@@ -38,7 +40,7 @@ export const BellIcon = (props: {
       <Icon
         style={styles.bellIcon}
         name={'bell-badge'}
-        size={37}
+        size={30}
         color={'black'}
         onPress={props.onPress}
       />
