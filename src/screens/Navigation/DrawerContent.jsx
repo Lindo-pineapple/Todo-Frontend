@@ -8,7 +8,7 @@ import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import styles from './DrawerContentStyles';
 
 const DrawerList = [
-  {icon: 'home-outline', label: 'Home', navigateTo: 'Home'},
+  {icon: 'home-outline', label: 'Home', navigateTo: 'Main'},
   {icon: 'account-multiple', label: 'Profile', navigateTo: 'Profile'},
   {icon: 'application-cog', label: 'Settings', navigateTo: ''},
 ];

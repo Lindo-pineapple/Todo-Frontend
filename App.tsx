@@ -26,7 +26,7 @@ export default function App(): React.JSX.Element {
         }}>
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="Register" component={Register} />
-        <Stack.Screen name="Home" component={DrawerNav} />
+        <Stack.Screen name="App" component={DrawerNav} />
       </Stack.Navigator>
     </NavigationContainer>
   );

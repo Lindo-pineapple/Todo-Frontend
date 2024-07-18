@@ -48,7 +48,7 @@ const Login = () => {
       setPassword('');
       this.NameInput.clear();
       setName('');
-      navigation.navigate('Home');
+      navigation.navigate('App');
     }
   }
 

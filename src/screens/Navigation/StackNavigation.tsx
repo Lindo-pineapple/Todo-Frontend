@@ -21,7 +21,7 @@ const StackNav = () => {
         headerRight: _props => <BellIcon />,
         title: '',
       })}>
-      <Stack.Screen name="Home" component={MainScreen} />
+      <Stack.Screen name="Main" component={MainScreen} />
     </Stack.Navigator>
   );
 };

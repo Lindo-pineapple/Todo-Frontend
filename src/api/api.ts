@@ -13,13 +13,12 @@ export const getTodos = async (): Promise<ITodo[]> => {
     })
       .then(response => {
         if (!response.ok) {
-          throw new Error(`Server Returned status code: ${response.status}`);
+          console.error(`Server Returned status code: ${response.status}`);
+          return false;
         }
         return response.json();
       })
       .then(todos => {
-        // Process the retrieved user data
-        // console.log(todos);
         return todos;
       })
       .catch(error => {
@@ -34,6 +33,7 @@ export const getTodos = async (): Promise<ITodo[]> => {
 };
 
 export const addTodo = async (title: string, description: string) => {
+  const authToken = await AsyncStorage.getItem('token');
   const todo: Omit<ITodo, '_id'> = {
     todo: title,
     description: description,
@@ -51,7 +51,8 @@ export const addTodo = async (title: string, description: string) => {
     fetch(baseUrl + '/todos/', options)
       .then(response => {
         if (!response.ok) {
-          throw new Error('Network response was not ok');
+          console.error('Network response was not ok');
+          return false;
         }
         return response.json();
       })
@@ -64,11 +65,13 @@ export const addTodo = async (title: string, description: string) => {
         console.error('Error:', error);
       });
   } catch (error) {
-    throw new Error('Error: ' + error);
+    console.error('Network response was not ok');
+    return false;
   }
 };
 
 export const updateTodo = async (Todo: ITodo) => {
+  const authToken = await AsyncStorage.getItem('token');
   const {_id, todo, description, isDone} = Todo;
 
   const updateItem: Omit<ITodo, '_id'> = {

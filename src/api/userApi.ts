@@ -23,15 +23,17 @@ export const RegisterUser = async (
     fetch(baseUrl + '/users/register', options)
       .then(response => {
         if (!response.ok) {
-          throw new Error('Network response was not ok');
+          console.error('Network response was not ok');
+          return false;
         }
         return response.json();
       })
       .then(async result => {
-        // Process the newly created user data
-        console.log('Token:', result.token);
-        await AsyncStorage.setItem('token', result.token);
-        return result.token;
+        if (result.token !== undefined && result !== false) {
+          await AsyncStorage.setItem('token', result.token);
+          return result.token;
+        }
+        return false;
       })
       .catch(error => {
         console.error('Error:', error);
@@ -58,22 +60,24 @@ export const LoginUser = async (username: string, password: string) => {
     fetch(baseUrl + '/users/login', options)
       .then(response => {
         if (!response.ok) {
-          throw new Error('Network response was not ok');
+          console.error('Network response was not ok');
+          return false;
         }
         return response.json();
       })
       .then(async result => {
-        console.log('Result: ', result);
-        console.log('Token: ', result.token);
-        await AsyncStorage.setItem('token', result.token);
-        await AsyncStorage.setItem(
-          'user',
-          JSON.stringify({
-            name: result.response.username,
-            email: result.response.email,
-          }),
-        );
-        return result.token;
+        if (result.token !== undefined && result !== false) {
+          await AsyncStorage.setItem('token', result.token);
+          await AsyncStorage.setItem(
+            'user',
+            JSON.stringify({
+              name: result.response.username,
+              email: result.response.email,
+            }),
+          );
+          return result.token;
+        }
+        return false;
       })
       .catch(error => {
         console.error('Error:', error);
