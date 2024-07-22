@@ -4,6 +4,7 @@ import {FlatList, SafeAreaView} from 'react-native';
 import {getTodos} from '../api/api';
 import Todo from './Todo';
 import TodoDetailsModal from './TodoDetailsModal';
+import useForceUpdate from 'use-force-update';
 
 //DUMMY DATA FOR DESIGN PURPOSES
 // const TODOS: ITodo[] | any = [
@@ -42,17 +43,21 @@ import TodoDetailsModal from './TodoDetailsModal';
 // ];
 
 const TodoItem: React.FC = () => {
+  const forceUpdate = useForceUpdate();
   const [todos, setTodos] = useState<ITodo[]>([]);
   const [modalVisible, setModalVisible] = useState(false);
   const [currentItem, setCurrentItem] = useState<ITodo | undefined>(undefined);
+  const [refresh, setRefresh] = useState(false);
 
   useEffect(() => {
     fetchTodos();
-  }, []);
+  }, [refresh]);
 
   const fetchTodos = async (): Promise<void> => {
     await getTodos()
-      .then((todos: ITodo[] | any) => setTodos(todos))
+      .then((todos: ITodo[] | any) => {
+        setTodos(todos);
+      })
       .catch((err: Error) => console.log(err));
   };
 
@@ -82,6 +87,8 @@ const TodoItem: React.FC = () => {
           onModalPress={() => {
             setModalVisible(!modalVisible);
             setCurrentItem(undefined);
+            forceUpdate();
+            setRefresh(!refresh);
           }}
           Todo={currentItem!}
         />
@@ -90,6 +97,8 @@ const TodoItem: React.FC = () => {
         data={todos}
         renderItem={renderItem}
         keyExtractor={item => item._id}
+        extraData={todos}
+        showsVerticalScrollIndicator={false}
       />
     </SafeAreaView>
   );

@@ -1,6 +1,37 @@
 const baseUrl: string = 'http://localhost:3000';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
+export const healthCheck = async () => {
+  try {
+    const health = await fetch(baseUrl, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    })
+      .then(response => {
+        if (!response.ok) {
+          console.error(`Server Returned status code: ${response.status}`);
+          return false;
+        }
+        return response.status;
+      })
+      .then(result => {
+        return result;
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        return false;
+      });
+
+    // console.log(`Health: ${health}`);
+
+    return health;
+  } catch (error) {
+    throw new Error('Error: ' + error);
+  }
+};
+
 export const getTodos = async (): Promise<ITodo[]> => {
   const authToken = await AsyncStorage.getItem('token');
   try {
@@ -57,7 +88,6 @@ export const addTodo = async (title: string, description: string) => {
         return response.json();
       })
       .then(newTodo => {
-        // Process the newly created user data
         console.log('New Todo:', newTodo);
         return newTodo;
       })
@@ -96,7 +126,6 @@ export const updateTodo = async (Todo: ITodo) => {
         return response.json();
       })
       .then(newTodo => {
-        // Process the newly created user data
         console.log('New Todo:', newTodo);
         return newTodo;
       })

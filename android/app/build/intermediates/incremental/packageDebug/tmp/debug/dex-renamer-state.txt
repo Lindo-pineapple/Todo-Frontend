@@ -1,4 +1,4 @@
-#Thu Jul 18 16:47:57 SAST 2024
+#Mon Jul 22 08:38:03 SAST 2024
 base.0=/Users/lindokuhledlomo/Documents/DevTest/TodoApp/Frontend/TodoApp/android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/lindokuhledlomo/Documents/DevTest/TodoApp/Frontend/TodoApp/android/app/build/intermediates/dex/debug/mergeLibDexDebug/1/classes.dex
 base.10=/Users/lindokuhledlomo/Documents/DevTest/TodoApp/Frontend/TodoApp/android/app/build/intermediates/dex/debug/mergeLibDexDebug/7/classes.dex

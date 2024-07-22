@@ -43,6 +43,8 @@ const Login = () => {
 
   async function handleSubmit() {
     let regUser: any | boolean = await LoginUser(name, password);
+    console.log(regUser);
+
     if (regUser !== false) {
       this.PasswordInput.clear();
       setPassword('');
@@ -50,6 +52,11 @@ const Login = () => {
       setName('');
       navigation.navigate('App');
     }
+
+    this.PasswordInput.clear();
+    setPassword('');
+    this.NameInput.clear();
+    setName('');
   }
 
   return (

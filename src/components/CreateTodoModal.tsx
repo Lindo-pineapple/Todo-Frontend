@@ -15,10 +15,12 @@ const CreateTodoModal = (props: {
   modalVisible: boolean;
   onModalPress: ((event: NativeSyntheticEvent<any>) => void) | undefined;
 }) => {
-  const [title, setTitle] = useState('');
-  const [description, setDescription] = useState('');
+  const [title, setTitle] = useState<string>('');
+  const [description, setDescription] = useState<string>('');
   const createTodo = async (): Promise<void> => {
-    await addTodo(title, description);
+    if (title.length > 1 && description.length > 1) {
+      await addTodo(title, description);
+    }
     this.titleInput.clear();
     setTitle('');
     this.descriptionInput.clear();
@@ -64,7 +66,11 @@ const CreateTodoModal = (props: {
             onPress={() => {
               createTodo();
             }}>
-            <Text style={styles.textStyle}>Create</Text>
+            <Text
+              disabled={title.length < 1 && description.length < 1}
+              style={styles.textStyle}>
+              Create
+            </Text>
           </Pressable>
         </SafeAreaView>
       </SafeAreaView>

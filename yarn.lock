@@ -4764,7 +4764,7 @@ react-test-renderer@18.2.0:
     react-shallow-renderer "^16.15.0"
     scheduler "^0.23.0"
 
-react@*, "react@^16.0.0 || ^17.0.0 || ^18.0.0", react@^18.2.0, react@>=16.0, react@>=16.3.0, react@>=16.8, react@>=17.0.0, react@18.2.0:
+react@*, "react@^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", react@^18.2.0, react@>=16.0, react@>=16.3.0, react@>=16.8, react@>=17.0.0, react@18.2.0:
   version "18.2.0"
   dependencies:
     loose-envify "^1.1.0"
@@ -5427,6 +5427,11 @@ uri-js@^4.2.2:
   version "4.4.1"
   dependencies:
     punycode "^2.1.0"
+
+use-force-update@^1.0.11:
+  version "1.0.11"
+  resolved "https://registry.npmjs.org/use-force-update/-/use-force-update-1.0.11.tgz"
+  integrity sha512-h4SICYgTJHon8w9dFIqdqR1Vrzdgl4YaRfRwhmAh01kBGljzTICanyfaFU8C4etuEfRdYpE+04XX2ZrEhOWKXQ==
 
 use-latest-callback@^0.1.5:
   version "0.1.11"

@@ -2,8 +2,10 @@ import {CheckBox} from '@rneui/themed';
 import React from 'react';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import {updateTodo} from '../api/api';
+import {useNavigation} from '@react-navigation/native';
 
 export default function CheckItem(props: {state: boolean; Todo: ITodo}) {
+  const navigation = useNavigation();
   const [checked, setState] = React.useState(props.state);
   const toggleCheckbox = async () => {
     let todo: ITodo = {
@@ -14,6 +16,7 @@ export default function CheckItem(props: {state: boolean; Todo: ITodo}) {
     };
     await updateTodo(todo);
     setState(!checked);
+    navigation.navigate('Main');
   };
 
   const checkedIcon: React.ReactElement = (

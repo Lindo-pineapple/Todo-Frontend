@@ -1,11 +1,12 @@
 import {DrawerContentScrollView, DrawerItem} from '@react-navigation/drawer';
 import {useNavigation} from '@react-navigation/native';
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {SafeAreaView, Text} from 'react-native';
 import {Avatar, Title} from 'react-native-paper';
 import {TouchableOpacity} from 'react-native-gesture-handler';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import styles from './DrawerContentStyles';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const DrawerList = [
   {icon: 'home-outline', label: 'Home', navigateTo: 'Main'},
@@ -43,6 +44,16 @@ const DrawerItems = () => {
 
 const DrawerContent = props => {
   const navigation = useNavigation();
+  const [userDetails, setDetails] = useState({});
+
+  const GetCurrentUser = async () => {
+    const details = await AsyncStorage.getItem('user');
+    setDetails(JSON.parse(details));
+  };
+
+  useEffect(() => {
+    GetCurrentUser();
+  }, []);
   return (
     <SafeAreaView style={{flex: 1}}>
       <DrawerContentScrollView {...props}>
@@ -52,9 +63,9 @@ const DrawerContent = props => {
               <SafeAreaView style={{flexDirection: 'row', marginTop: 15}}>
                 <Avatar.Image source={{}} size={50} style={{marginTop: 5}} />
                 <SafeAreaView style={{marginLeft: 10, flexDirection: 'column'}}>
-                  <Title style={styles.title}>Lindo</Title>
+                  <Title style={styles.title}>{userDetails.name}</Title>
                   <Text style={styles.caption} numberOfLines={1}>
-                    lindo@email.com
+                    {userDetails.email}
                   </Text>
                 </SafeAreaView>
               </SafeAreaView>

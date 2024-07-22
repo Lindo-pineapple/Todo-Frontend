@@ -20,7 +20,7 @@ export const RegisterUser = async (
     body: JSON.stringify(user),
   };
   try {
-    fetch(baseUrl + '/users/register', options)
+    const resp = await fetch(baseUrl + '/users/register', options)
       .then(response => {
         if (!response.ok) {
           console.error('Network response was not ok');
@@ -39,6 +39,8 @@ export const RegisterUser = async (
         console.error('Error:', error);
         return false;
       });
+
+    return resp;
   } catch (error) {
     throw new Error('Error: ' + error);
   }
@@ -57,10 +59,10 @@ export const LoginUser = async (username: string, password: string) => {
     body: JSON.stringify(user),
   };
   try {
-    fetch(baseUrl + '/users/login', options)
+    const resp = fetch(baseUrl + '/users/login', options)
       .then(response => {
         if (!response.ok) {
-          console.error('Network response was not ok');
+          // console.error('Network response was not ok');
           return false;
         }
         return response.json();
@@ -83,6 +85,7 @@ export const LoginUser = async (username: string, password: string) => {
         console.error('Error:', error);
         return false;
       });
+    return resp;
   } catch (error) {
     throw new Error('Error: ' + error);
   }

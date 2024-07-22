@@ -41,13 +41,13 @@ const Register = () => {
   async function handleSubmit() {
     let regUser: any | boolean = await RegisterUser(name, password, email);
     if (regUser !== false) {
+      navigation.navigate("Login");
       this.PasswordInput.clear();
       setPassword('');
       this.NameInput.clear();
       setName('');
       this.EmailInput.clear();
       setEmail('');
-      navigation.navigate('Login');
     }
   }
 
